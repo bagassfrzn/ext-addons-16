@@ -1,0 +1,3438 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* til_account_reports
+# 
+# Translators:
+# RGB Consulting <odoo@rgbconsulting.com>, 2022
+# Lluís Dalmau <lluis.dalmau@guifi.net>, 2022
+# Jonatan Gk, 2022
+# Marc Tormo i Bochaca <mtbochaca@gmail.com>, 2022
+# Manel Fernandez Ramirez <manelfera@outlook.com>, 2022
+# Arnau Ros, 2022
+# Quim - eccit <quim@eccit.com>, 2022
+# Carles Antoli <carlesantoli@hotmail.com>, 2022
+# oscaryuu, 2022
+# ericrolo, 2022
+# Harcogourmet, 2022
+# jabelchi, 2022
+# Martin Trigaux, 2022
+# marcescu, 2022
+# Óscar Fonseca <tecnico@extreme-micro.com>, 2022
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0beta+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-10-10 13:27+0000\n"
+"PO-Revision-Date: 2022-09-22 05:45+0000\n"
+"Last-Translator: Óscar Fonseca <tecnico@extreme-micro.com>, 2022\n"
+"Language-Team: Catalan (https://www.transifex.com/odoo/teams/41243/ca/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: ca\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_report.py:0
+#, python-format
+msgid " and %s others"
+msgstr " i %s altres"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_report.py:0
+#, python-format
+msgid " and one other"
+msgstr "i un altre"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.bank_reconciliation_report_main_template
+msgid "\" account balance is affected by"
+msgstr "\" el balanç del compte es veu afectat per"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_bank_reconciliation_report.py:0
+#, python-format
+msgid ""
+"%s for Transactions(+) imported from your online bank account (dated today) "
+"that are not yet reconciled in Odoo (Waiting the final reconciliation "
+"allowing finding the right account)"
+msgstr ""
+"%s per transaccions(+) importades des del compte bancari online (amb data "
+"d'avui) que encara no han estat conciliades a Odoo (esperant la conciliació "
+"final trobant el compte correcte)"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_bank_reconciliation_report.py:0
+#, python-format
+msgid ""
+"%s for Transactions(-) imported from your online bank account (dated today) "
+"that are not yet reconciled in Odoo (Waiting the final reconciliation "
+"allowing finding the right account)"
+msgstr ""
+"%s per transaccions(-) importades des del compte bancari online (amb data "
+"d'avui) que encara no han estat conciliades a Odoo (esperant la conciliació "
+"final trobant el compte correcte)"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.aged_report_line_template
+#: model_terms:ir.ui.view,arch_db:til_account_reports.bank_reconciliation_report_cell_template_unexplained_difference
+#: model_terms:ir.ui.view,arch_db:til_account_reports.line_template_general_ledger_report
+#: model_terms:ir.ui.view,arch_db:til_account_reports.line_template_journal_audit_report
+#: model_terms:ir.ui.view,arch_db:til_account_reports.line_template_partner_ledger_report
+#: model_terms:ir.ui.view,arch_db:til_account_reports.multicurrency_report_line_template
+msgid "&amp;nbsp;"
+msgstr "&amp;nbsp;"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_report.py:0
+#, python-format
+msgid ""
+"'Open General Ledger' caret option is only available form report lines "
+"targetting accounts."
+msgstr ""
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_report.py:0
+#, python-format
+msgid "'external' engine does not support groupby, limit nor offset."
+msgstr ""
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_bank_reconciliation_report.py:0
+#, python-format
+msgid "(+) Outstanding Receipts"
+msgstr "(+) Recepcions pendents"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_bank_reconciliation_report.py:0
+#, python-format
+msgid "(-) Outstanding Payments"
+msgstr "(-) Pagaments pendents"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_report.py:0
+#, python-format
+msgid "(No Group)"
+msgstr "(Sense Grup)"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.filter_info_template_journal_audit_report
+msgid ", Grouped by month"
+msgstr ""
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.filter_info_template_journal_audit_report
+msgid ", Sorted by date"
+msgstr ""
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.filter_info_template_journal_audit_report
+msgid ", Sorted by number"
+msgstr ""
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.view_move_form_vat_return
+msgid "-> Check your tax report"
+msgstr ""
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.view_move_form_vat_return
+msgid "-> Refresh"
+msgstr "-> Actualitzar"
+
+#. module: til_account_reports
+#: model:account.report.column,name:til_account_reports.aged_payable_report_period1
+#: model:account.report.column,name:til_account_reports.aged_receivable_report_period1
+msgid "1-30"
+msgstr ""
+
+#. module: til_account_reports
+#: model:account.report.column,name:til_account_reports.aged_payable_report_period2
+#: model:account.report.column,name:til_account_reports.aged_receivable_report_period2
+msgid "31-60"
+msgstr ""
+
+#. module: til_account_reports
+#: model:account.report.column,name:til_account_reports.aged_payable_report_period3
+#: model:account.report.column,name:til_account_reports.aged_receivable_report_period3
+msgid "61-90"
+msgstr ""
+
+#. module: til_account_reports
+#: model:account.report.column,name:til_account_reports.aged_payable_report_period4
+#: model:account.report.column,name:til_account_reports.aged_receivable_report_period4
+msgid "91-120"
+msgstr ""
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.filter_info_template
+msgid "<br/>Companies:"
+msgstr "<br/>Companyies:"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.line_template
+msgid ""
+"<i class=\"fa fa-caret-right invisible\" role=\"img\" aria-"
+"label=\"Unfolded\" title=\"Unfolded\"/>"
+msgstr ""
+"<i class=\"fa fa-caret-right invisible\" role=\"img\" aria-"
+"label=\"Unfolded\" title=\"Unfolded\"/>"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.search_template_comparison
+msgid "<span class=\"fa fa-bar-chart\"/> Comparison:"
+msgstr "<span class=\"fa fa-bar-chart\"/> Comparació:"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.search_template_variants
+msgid ""
+"<span class=\"fa fa-book\"/>\n"
+"                Report:"
+msgstr ""
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.search_template_fiscal_position_choser
+msgid ""
+"<span class=\"fa fa-book\"/>\n"
+"            Fiscal Position:"
+msgstr ""
+"<span class=\"fa fa-book\"/>\n"
+"           Posició fiscal:"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.search_template_journals
+msgid ""
+"<span class=\"fa fa-book\"/>\n"
+"            Journals:"
+msgstr ""
+"<span class=\"fa fa-book\"/>\n"
+"            Diaris:"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.search_template_date_filter
+msgid "<span class=\"fa fa-calendar\" title=\"Dates\" role=\"img\" aria-label=\"Dates\"/>"
+msgstr "<span class=\"fa fa-calendar\" title=\"Dates\" role=\"img\" aria-label=\"Dates\"/>"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.aged_report_line_template
+msgid ""
+"<span class=\"fa fa-circle color-green trust-partner\" role=\"img\" aria-"
+"label=\"Balance is good\" title=\"Balance is good\"/>"
+msgstr ""
+"<span class=\"fa fa-circle color-green trust-partner\" role=\"img\" aria-"
+"label=\"Balance is good\" title=\"Balance is good\"/>"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.line_template_partner_ledger_report
+msgid ""
+"<span class=\"fa fa-circle color-green trust-partner\" role=\"img\" aria-"
+"label=\"Partner ledger is good\" title=\"Partner ledger is good\"/>"
+msgstr ""
+"<span class=\"fa fa-circle color-green trust-partner\" role=\"img\" aria-"
+"label=\"Partner ledger is good\" title=\"Partner ledger is good\"/>"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.aged_report_line_template
+msgid ""
+"<span class=\"fa fa-circle color-red trust-partner\" role=\"img\" aria-"
+"label=\"Balance is bad\" title=\"Balance is bad\"/>"
+msgstr ""
+"<span class=\"fa fa-circle color-red trust-partner\" role=\"img\" aria-"
+"label=\"Balance is bad\" title=\"Balance is bad\"/>"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.line_template_partner_ledger_report
+msgid ""
+"<span class=\"fa fa-circle color-red trust-partner\" role=\"img\" aria-"
+"label=\"Partner ledger is bad\" title=\"Partner ledger is bad\"/>"
+msgstr ""
+"<span class=\"fa fa-circle color-red trust-partner\" role=\"img\" aria-"
+"label=\"Partner ledger is bad\" title=\"Partner ledger is bad\"/>"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.aged_report_line_template
+msgid ""
+"<span class=\"fa fa-circle color-transparent trust-partner\" role=\"img\" "
+"aria-label=\"Balance is normal\" title=\"Balance is normal\"/>"
+msgstr ""
+"<span class=\"fa fa-circle color-transparent trust-partner\" role=\"img\" "
+"aria-label=\"Balance is normal\" title=\"Balance is normal\"/>"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.line_template_partner_ledger_report
+msgid ""
+"<span class=\"fa fa-circle color-transparent trust-partner\" role=\"img\" "
+"aria-label=\"Partner ledger is normal\" title=\"Partner ledger is normal\"/>"
+msgstr ""
+"<span class=\"fa fa-circle color-transparent trust-partner\" role=\"img\" "
+"aria-label=\"Partner ledger is normal\" title=\"Partner ledger is normal\"/>"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.ec_sales_with_tax_filter_search_template
+msgid ""
+"<span class=\"fa fa-filter\"/>\n"
+"                    Codes:"
+msgstr ""
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.search_template_groupby_fields
+msgid ""
+"<span class=\"fa fa-filter\"/>\n"
+"            Group By:"
+msgstr ""
+"<span class=\"fa fa-filter\"/>\n"
+"            Agrupa per:"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.search_template_horizontal_groups
+msgid ""
+"<span class=\"fa fa-filter\"/>\n"
+"            Horizontal Group:"
+msgstr ""
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.search_template_extra_options
+msgid "<span class=\"fa fa-filter\"/> Options:"
+msgstr "<span class=\"fa fa-filter\"/> Opcions:"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.search_template_analytic
+msgid "<span class=\"fa fa-folder-open\"/> Analytic"
+msgstr "<span class=\"fa fa-folder-open\"/> Analítica"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.search_template_partner
+msgid "<span class=\"fa fa-folder-open\"/> Partners"
+msgstr "<span class=\"fa fa-folder-open\"/> Socis"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.search_template_tax_unit
+msgid ""
+"<span class=\"fa fa-home\"/>\n"
+"            Tax Unit:"
+msgstr ""
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.res_config_settings_view_form
+msgid ""
+"<span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-"
+"specific.\" groups=\"base.group_multi_company\"/>"
+msgstr ""
+"<span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-"
+"specific.\" groups=\"base.group_multi_company\"/>"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.multicurrency_report_search_template
+msgid "<span class=\"fa fa-line-chart\"/> Exchange Rates"
+msgstr "<span class=\"fa fa-line-chart\"/> Taxes d'intercanvi"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.search_template_account_type
+msgid ""
+"<span class=\"fa fa-user\"/>\n"
+"            Account:"
+msgstr ""
+"<span class=\"fa fa-user\"/>\n"
+"            Compte:"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.footnotes_template
+msgid ""
+"<span class=\"o_account_reports_footnote_icons\"><i class=\"fa fa-fw fa-"
+"trash-o\" role=\"img\" aria-label=\"Delete\" title=\"Delete\"/></span>"
+msgstr ""
+"<span class=\"o_account_reports_footnote_icons\"><i class=\"fa fa-fw fa-"
+"trash-o\" role=\"img\" aria-label=\"Delete\" title=\"Delete\"/></span>"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.res_config_settings_view_form
+msgid ""
+"<span class=\"o_form_label\">Tax Return Periodicity</span>\n"
+"                        <span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-specific.\" role=\"img\" aria-label=\"Values set here are company-specific.\" groups=\"base.group_multi_company\"/>"
+msgstr ""
+"<span class=\"o_form_label\">Període de retorn d'impostos</span>\n"
+"                        <span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-specific.\" role=\"img\" aria-label=\"Values set here are company-specific.\" groups=\"base.group_multi_company\"/>"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.main_template_with_filter_input_accounts
+msgid ""
+"<span class=\"searchIcon\"><i class=\"fa fa-search\" role=\"img\" aria-"
+"label=\"Search\" title=\"Search\"/></span>"
+msgstr ""
+"<span class=\"searchIcon\"><i class=\"fa fa-search\" role=\"img\" aria-"
+"label=\"Search\" title=\"Search\"/></span>"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.sales_report_main_template
+msgid ""
+"<span>Intrastat taxes are applied on unexpected journal entries "
+"(international or between non intrastat countries).</span>"
+msgstr ""
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.template_tax_report
+msgid ""
+"<span>Please note that the report may include some rounding differences "
+"towards the bookings.</span>"
+msgstr ""
+"<span>Tingueu en compte que l'informe pot incloure algunes diferències "
+"d'arrodoniment cap a les reserves.</span>"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.sales_report_main_template
+msgid "<span>Some partners are missing a VAT number.</span>"
+msgstr "<span>Alguns socis manquen d'un número d'IVA.</span>"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.template_tax_report
+msgid ""
+"<span>This company is part of a tax unit. You're currently not viewing the "
+"whole unit; to change that, tick the \"aggregate\" option of \"tax unit\" "
+"menu.</span>"
+msgstr ""
+"<span>Aquesta empresa forma part d'una unitat fiscal. Actualment no esteu "
+"veient tota la unitat; per canviar-ho, marqueu l'opció \"agregat\" del menú "
+"\"unitat d'impostos\".</span>"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.multicurrency_report_main_template
+msgid "<span>This report only displays the data of the active company.</span>"
+msgstr ""
+"<span>Aquest informe només mostra les dades de l'empresa activa.</span>"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.line_template_journal_audit_report
+msgid "=&gt; Audit"
+msgstr ""
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.line_template_journal_audit_report
+msgid "=&gt; Journal Items"
+msgstr ""
+
+#. module: til_account_reports
+#: model:ir.model.constraint,message:til_account_reports.constraint_account_report_horizontal_group_name_uniq
+msgid "A horizontal group with the same name already exists."
+msgstr ""
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_tax.py:0
+#, python-format
+msgid ""
+"A tax unit can only be created between companies sharing the same main "
+"currency."
+msgstr ""
+"Una unitat fiscal només pot crear-se entre empreses que comparteixen la "
+"mateixa moneda principal."
+
+#. module: til_account_reports
+#: model:account.report.line,name:til_account_reports.account_financial_report_total_assets0
+msgid "ASSETS"
+msgstr "ACTIUS"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_journal_report.py:0
+#: code:addons/til_account_reports/wizard/multicurrency_revaluation.py:0
+#: model:account.report.column,name:til_account_reports.aged_payable_report_account_name
+#: model:account.report.column,name:til_account_reports.aged_receivable_report_account_name
+#: model:account.report.column,name:til_account_reports.journal_report_communication
+#: model:account.report.column,name:til_account_reports.partner_ledger_report_account_code
+#: model:ir.model,name:til_account_reports.model_account_account
+#, python-format
+msgid "Account"
+msgstr "Compte"
+
+#. module: til_account_reports
+#: model:ir.model,name:til_account_reports.model_account_chart_template
+msgid "Account Chart Template"
+msgstr "Plantilla de quadre de comptes"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_report.py:0
+#, python-format
+msgid "Account Code"
+msgstr "Codi de compte"
+
+#. module: til_account_reports
+#: model:ir.model.fields,field_description:til_account_reports.field_res_company__account_display_representative_field
+msgid "Account Display Representative Field"
+msgstr "Camp de representació de la pantalla del compte"
+
+#. module: til_account_reports
+#: model:ir.model,name:til_account_reports.model_account_report_custom_handler
+msgid "Account Report Custom Handler"
+msgstr ""
+
+#. module: til_account_reports
+#: model:ir.model,name:til_account_reports.model_account_report_footnote
+msgid "Account Report Footnote"
+msgstr "Nota al peu del compte"
+
+#. module: til_account_reports
+#: model:ir.model.fields,field_description:til_account_reports.field_res_partner__account_represented_company_ids
+#: model:ir.model.fields,field_description:til_account_reports.field_res_users__account_represented_company_ids
+msgid "Account Represented Company"
+msgstr "Compta Empresa Representada"
+
+#. module: til_account_reports
+#: model:ir.model.fields,field_description:til_account_reports.field_res_company__account_revaluation_journal_id
+msgid "Account Revaluation Journal"
+msgstr "Diari de revaluació del compte"
+
+#. module: til_account_reports
+#: model:ir.model.fields,field_description:til_account_reports.field_res_company__account_representative_id
+msgid "Accounting Firm"
+msgstr "Firma comptable"
+
+#. module: til_account_reports
+#: model:ir.model,name:til_account_reports.model_account_report
+msgid "Accounting Report"
+msgstr "Informe financer"
+
+#. module: til_account_reports
+#: model:ir.model,name:til_account_reports.model_account_report_line
+msgid "Accounting Report Line"
+msgstr ""
+
+#. module: til_account_reports
+#: model:ir.actions.act_window,name:til_account_reports.action_account_report_tree
+#: model:ir.ui.menu,name:til_account_reports.menu_action_account_report_tree
+#: model_terms:ir.ui.view,arch_db:til_account_reports.view_account_report_search
+msgid "Accounting Reports"
+msgstr "Informes comptables"
+
+#. module: til_account_reports
+#. openerp-web
+#: code:addons/til_account_reports/static/src/js/til_account_reports.js:0
+#: code:addons/til_account_reports/static/src/js/til_account_reports.js:0
+#, python-format
+msgid "Accounts"
+msgstr "Comptes"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.account_report_form
+msgid "Accounts Coverage Report"
+msgstr ""
+
+#. module: til_account_reports
+#: model:account.report.expression,report_line_name:til_account_reports.multicurrency_revaluation_to_adjust_adjustment
+#: model:account.report.expression,report_line_name:til_account_reports.multicurrency_revaluation_to_adjust_balance_currency
+#: model:account.report.expression,report_line_name:til_account_reports.multicurrency_revaluation_to_adjust_balance_current
+#: model:account.report.expression,report_line_name:til_account_reports.multicurrency_revaluation_to_adjust_balance_operation
+#: model:account.report.line,name:til_account_reports.multicurrency_revaluation_to_adjust
+msgid "Accounts To Adjust"
+msgstr ""
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_report.py:0
+#, python-format
+msgid "Accounts coverage"
+msgstr ""
+
+#. module: til_account_reports
+#: model:ir.model.fields,field_description:til_account_reports.field_mail_activity_type__category
+msgid "Action"
+msgstr "Acció"
+
+#. module: til_account_reports
+#: model:ir.model.fields,help:til_account_reports.field_mail_activity_type__category
+msgid ""
+"Actions may trigger specific behavior like opening calendar view or "
+"automatically mark as done when a document is uploaded"
+msgstr ""
+"Les accions poden disparar comportaments específics com ara obrir una vista "
+"de calendari o marcar automàticament com a fet quan es puja un document"
+
+#. module: til_account_reports
+#: model:ir.model,name:til_account_reports.model_mail_activity
+msgid "Activity"
+msgstr "Activitat"
+
+#. module: til_account_reports
+#: model:ir.model,name:til_account_reports.model_mail_activity_type
+msgid "Activity Type"
+msgstr "Tipus d'activitat"
+
+#. module: til_account_reports
+#. openerp-web
+#: code:addons/til_account_reports/static/src/js/til_account_reports.js:0
+#, python-format
+msgid "Add a note"
+msgstr "Afegir una nota"
+
+#. module: til_account_reports
+#: model:ir.model.fields,field_description:til_account_reports.field_res_company__totals_below_sections
+#: model:ir.model.fields,field_description:til_account_reports.field_res_config_settings__totals_below_sections
+msgid "Add totals below sections"
+msgstr "Afegeix els totals sota les seccions"
+
+#. module: til_account_reports
+#: model:account.report.column,name:til_account_reports.multicurrency_revaluation_report_adjustment
+msgid "Adjustment"
+msgstr "Ajustament"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_multicurrency_revaluation_report.py:0
+#, python-format
+msgid "Adjustment Entry"
+msgstr "Entrada d'ajusts"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_cash_flow_report.py:0
+#, python-format
+msgid "Advance Payments received from customers"
+msgstr "Avançament de clients"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_cash_flow_report.py:0
+#, python-format
+msgid "Advance payments made to suppliers"
+msgstr "Avançament a proveïdors"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.account_report_form
+msgid "Advanced"
+msgstr "Avançat"
+
+#. module: til_account_reports
+#: model:ir.model,name:til_account_reports.model_account_aged_partner_balance_report_handler
+msgid "Aged Partner Balance Custom Handler"
+msgstr ""
+
+#. module: til_account_reports
+#: model:account.report,name:til_account_reports.aged_payable_report
+#: model:account.report.expression,report_line_name:til_account_reports.aged_payable_line_account_name
+#: model:account.report.expression,report_line_name:til_account_reports.aged_payable_line_amount_currency
+#: model:account.report.expression,report_line_name:til_account_reports.aged_payable_line_currency
+#: model:account.report.expression,report_line_name:til_account_reports.aged_payable_line_due_date
+#: model:account.report.expression,report_line_name:til_account_reports.aged_payable_line_expected_date
+#: model:account.report.expression,report_line_name:til_account_reports.aged_payable_line_period0
+#: model:account.report.expression,report_line_name:til_account_reports.aged_payable_line_period1
+#: model:account.report.expression,report_line_name:til_account_reports.aged_payable_line_period2
+#: model:account.report.expression,report_line_name:til_account_reports.aged_payable_line_period3
+#: model:account.report.expression,report_line_name:til_account_reports.aged_payable_line_period4
+#: model:account.report.expression,report_line_name:til_account_reports.aged_payable_line_period5
+#: model:account.report.expression,report_line_name:til_account_reports.aged_payable_line_total
+#: model:account.report.line,name:til_account_reports.aged_payable_line
+#: model:ir.actions.client,name:til_account_reports.action_account_report_ap
+#: model:ir.ui.menu,name:til_account_reports.menu_action_account_report_aged_payable
+msgid "Aged Payable"
+msgstr "Previsió a pagar"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.account_reports_journal_dashboard_kanban_view
+msgid "Aged Payables"
+msgstr "Previsió a pagar"
+
+#. module: til_account_reports
+#: model:account.report,name:til_account_reports.aged_receivable_report
+#: model:account.report.expression,report_line_name:til_account_reports.aged_receivable_line_account_name
+#: model:account.report.expression,report_line_name:til_account_reports.aged_receivable_line_amount_currency
+#: model:account.report.expression,report_line_name:til_account_reports.aged_receivable_line_currency
+#: model:account.report.expression,report_line_name:til_account_reports.aged_receivable_line_due_date
+#: model:account.report.expression,report_line_name:til_account_reports.aged_receivable_line_expected_date
+#: model:account.report.expression,report_line_name:til_account_reports.aged_receivable_line_period0
+#: model:account.report.expression,report_line_name:til_account_reports.aged_receivable_line_period1
+#: model:account.report.expression,report_line_name:til_account_reports.aged_receivable_line_period2
+#: model:account.report.expression,report_line_name:til_account_reports.aged_receivable_line_period3
+#: model:account.report.expression,report_line_name:til_account_reports.aged_receivable_line_period4
+#: model:account.report.expression,report_line_name:til_account_reports.aged_receivable_line_period5
+#: model:account.report.expression,report_line_name:til_account_reports.aged_receivable_line_total
+#: model:account.report.line,name:til_account_reports.aged_receivable_line
+#: model:ir.actions.client,name:til_account_reports.action_account_report_ar
+#: model:ir.ui.menu,name:til_account_reports.menu_action_account_report_aged_receivable
+msgid "Aged Receivable"
+msgstr "Previsió a cobrar"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.account_reports_journal_dashboard_kanban_view
+msgid "Aged Receivables"
+msgstr "Previsió a cobrar"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.filter_info_template
+#: model_terms:ir.ui.view,arch_db:til_account_reports.search_template_fiscal_position_choser
+msgid "All"
+msgstr "Tots"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_report.py:0
+#, python-format
+msgid "All Journals"
+msgstr "Tots els diaris"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_report.py:0
+#, python-format
+msgid "All Payable"
+msgstr "Tot el pagable"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_report.py:0
+#, python-format
+msgid "All Receivable"
+msgstr "Tot el cobrable"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_report.py:0
+#, python-format
+msgid "All receivable/payable"
+msgstr "Tot el cobrable/pagable"
+
+#. module: til_account_reports
+#: model:account.report.column,name:til_account_reports.account_financial_report_ec_sales_amount
+#: model:account.report.column,name:til_account_reports.bank_reconciliation_report_amount
+msgid "Amount"
+msgstr "Import"
+
+#. module: til_account_reports
+#: model:account.report.column,name:til_account_reports.aged_payable_report_amount_currency
+#: model:account.report.column,name:til_account_reports.aged_receivable_report_amount_currency
+#: model:account.report.column,name:til_account_reports.bank_reconciliation_report_amount_currency
+#: model:account.report.column,name:til_account_reports.partner_ledger_report_amount_currency
+msgid "Amount Currency"
+msgstr "Divisa de l'import"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_journal_report.py:0
+#, python-format
+msgid "Amount In Currency"
+msgstr ""
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_journal_report.py:0
+#, python-format
+msgid "Amount in currency: %s"
+msgstr ""
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.filter_info_template
+msgid "Analytic Accounts:"
+msgstr "Comptes analítics:"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.filter_info_template
+msgid "Analytic Plans:"
+msgstr "Plans analítics:"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.search_template_extra_options
+msgid ""
+"Analytic filters will include analytic items without accounting "
+"correspondence"
+msgstr ""
+
+#. module: til_account_reports
+#. openerp-web
+#: code:addons/til_account_reports/static/src/js/til_account_reports.js:0
+#: model_terms:ir.ui.view,arch_db:til_account_reports.line_template
+#, python-format
+msgid "Annotate"
+msgstr "Anotar"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.multicurrency_report_search_template
+#: model_terms:ir.ui.view,arch_db:til_account_reports.search_template_comparison
+#: model_terms:ir.ui.view,arch_db:til_account_reports.search_template_date_filter
+msgid "Apply"
+msgstr "Aplica"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_report.py:0
+#, python-format
+msgid "As of %s"
+msgstr "A partir de %s"
+
+#. module: til_account_reports
+#: model:account.report.column,name:til_account_reports.aged_payable_report_period0
+#: model:account.report.column,name:til_account_reports.aged_receivable_report_period0
+msgid "At Date"
+msgstr "En data"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_generic_tax_report.py:0
+#: model_terms:ir.ui.view,arch_db:til_account_reports.cell_template
+#, python-format
+msgid "Audit"
+msgstr "Auditoria"
+
+#. module: til_account_reports
+#: model:ir.ui.menu,name:til_account_reports.account_reports_audit_reports_menu
+msgid "Audit Reports"
+msgstr "Informes d'auditoria"
+
+#. module: til_account_reports
+#: model:account.report.expression,report_line_name:til_account_reports.account_financial_report_executivesummary_avgcre0_balance
+#: model:account.report.expression,report_line_name:til_account_reports.account_financial_report_executivesummary_avgcre0_ndays
+#: model:account.report.line,name:til_account_reports.account_financial_report_executivesummary_avgcre0
+msgid "Average creditors days"
+msgstr "Termini mitja de cobrament"
+
+#. module: til_account_reports
+#: model:account.report.expression,report_line_name:til_account_reports.account_financial_report_executivesummary_avdebt0_balance
+#: model:account.report.expression,report_line_name:til_account_reports.account_financial_report_executivesummary_avdebt0_ndays
+#: model:account.report.line,name:til_account_reports.account_financial_report_executivesummary_avdebt0
+msgid "Average debtors days"
+msgstr "Termini mitja de pagament"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_journal_report.py:0
+#, python-format
+msgid "B: %s"
+msgstr ""
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_journal_report.py:0
+#: model:account.report.column,name:til_account_reports.balance_sheet_balance
+#: model:account.report.column,name:til_account_reports.cash_flow_report_balance
+#: model:account.report.column,name:til_account_reports.executive_summary_column
+#: model:account.report.column,name:til_account_reports.general_ledger_report_balance
+#: model:account.report.column,name:til_account_reports.partner_ledger_report_balance
+#: model:account.report.column,name:til_account_reports.profit_and_loss_column
+#, python-format
+msgid "Balance"
+msgstr "Saldo"
+
+#. module: til_account_reports
+#: model:account.report,name:til_account_reports.balance_sheet
+#: model:account.report.line,name:til_account_reports.account_financial_report_executivesummary_balancesheet0
+#: model:ir.actions.client,name:til_account_reports.action_account_report_bs
+#: model:ir.ui.menu,name:til_account_reports.menu_action_account_report_balance_sheet
+msgid "Balance Sheet"
+msgstr "Balanç de situació"
+
+#. module: til_account_reports
+#: model:account.report.column,name:til_account_reports.multicurrency_revaluation_report_balance_current
+msgid "Balance at Current Rate"
+msgstr ""
+
+#. module: til_account_reports
+#: model:account.report.column,name:til_account_reports.multicurrency_revaluation_report_balance_operation
+msgid "Balance at Operation Rate"
+msgstr ""
+
+#. module: til_account_reports
+#: model:account.report.column,name:til_account_reports.multicurrency_revaluation_report_balance_currency
+msgid "Balance in Foreign Currency"
+msgstr ""
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.account_reports_journal_dashboard_kanban_view
+msgid "Balance in GL"
+msgstr "Balanç a GL"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_bank_reconciliation_report.py:0
+#, python-format
+msgid "Balance of %s"
+msgstr "Balanç de %s"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_generic_tax_report.py:0
+#, python-format
+msgid "Balance tax advance payment account"
+msgstr "Compte de pagament d'impostos per endavant"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_generic_tax_report.py:0
+#, python-format
+msgid "Balance tax current account (payable)"
+msgstr "Compte actual de l'impost de saldo (pagable)"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_generic_tax_report.py:0
+#, python-format
+msgid "Balance tax current account (receivable)"
+msgstr "Compte actual de l'impost de saldo (reconcebible)"
+
+#. module: til_account_reports
+#: model:ir.actions.client,name:til_account_reports.action_account_report_bank_reconciliation
+msgid "Bank Reconciliation"
+msgstr "Reconciliació bancaria"
+
+#. module: til_account_reports
+#: model:account.report,name:til_account_reports.bank_reconciliation_report
+msgid "Bank Reconciliation Report"
+msgstr "Informe de conciliació bancària"
+
+#. module: til_account_reports
+#: model:ir.model,name:til_account_reports.model_account_bank_reconciliation_report_handler
+msgid "Bank Reconciliation Report Custom Handler"
+msgstr ""
+
+#. module: til_account_reports
+#: model:account.report.line,name:til_account_reports.account_financial_report_bank_view0
+msgid "Bank and Cash Accounts"
+msgstr "Comptes bancaris i de caixa"
+
+#. module: til_account_reports
+#: model:ir.model,name:til_account_reports.model_bank_rec_widget
+msgid "Bank reconciliation widget for a single statement line"
+msgstr ""
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_general_ledger.py:0
+#: model_terms:ir.ui.view,arch_db:til_account_reports.line_template_journal_audit_report
+#, python-format
+msgid "Base Amount"
+msgstr "Import base"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_report.py:0
+#, python-format
+msgid ""
+"Can't open partner reconciliation for line id %s ; model should res.partner."
+msgstr ""
+
+#. module: til_account_reports
+#. openerp-web
+#: code:addons/til_account_reports/static/src/js/til_account_reports.js:0
+#: code:addons/til_account_reports/static/src/js/til_account_reports.js:0
+#: model_terms:ir.ui.view,arch_db:til_account_reports.view_account_multicurrency_revaluation_wizard
+#: model_terms:ir.ui.view,arch_db:til_account_reports.view_report_export_wizard
+#, python-format
+msgid "Cancel"
+msgstr "Cancel·lar"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_generic_tax_report.py:0
+#, python-format
+msgid "Cannot audit tax from another model than account.tax."
+msgstr ""
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_report.py:0
+#, python-format
+msgid "Cannot generate carryover values for all fiscal positions at once!"
+msgstr ""
+
+#. module: til_account_reports
+#. openerp-web
+#: code:addons/til_account_reports/static/src/xml/account_report_template.xml:0
+#, python-format
+msgid "Carryover"
+msgstr "Trasllat"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_report.py:0
+#, python-format
+msgid "Carryover adjustment for tax unit"
+msgstr ""
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_report.py:0
+#, python-format
+msgid "Carryover can only be generated for a single column group."
+msgstr ""
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_report.py:0
+#, python-format
+msgid "Carryover from %s to %s"
+msgstr ""
+
+#. module: til_account_reports
+#: model:account.report.line,name:til_account_reports.account_financial_report_executivesummary_cash0
+msgid "Cash"
+msgstr "Caixa"
+
+#. module: til_account_reports
+#: model:ir.model,name:til_account_reports.model_account_cash_flow_report_handler
+msgid "Cash Flow Report Custom Handler"
+msgstr ""
+
+#. module: til_account_reports
+#: model:account.report,name:til_account_reports.cash_flow_report
+#: model:ir.actions.client,name:til_account_reports.action_account_report_cs
+#: model:ir.ui.menu,name:til_account_reports.menu_action_account_report_cash_flow
+msgid "Cash Flow Statement"
+msgstr "Estat de flux d'efectiu"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_cash_flow_report.py:0
+#, python-format
+msgid "Cash and cash equivalents, beginning of period"
+msgstr "Efectiu i equivalents d'efectiu, inici de període"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_cash_flow_report.py:0
+#, python-format
+msgid "Cash and cash equivalents, closing balance"
+msgstr "Efectiu i equivalents, tanca de l'exercici"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_cash_flow_report.py:0
+#, python-format
+msgid "Cash flows from financing activities"
+msgstr "Flux de caixes d'activitats financeres"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_cash_flow_report.py:0
+#, python-format
+msgid "Cash flows from investing & extraordinary activities"
+msgstr "Flux de caixes d'activitats d'inversió i extraordinàries"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_cash_flow_report.py:0
+#, python-format
+msgid "Cash flows from operating activities"
+msgstr "Flux de caixa d'activitats operatives"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_cash_flow_report.py:0
+#, python-format
+msgid "Cash flows from unclassified activities"
+msgstr "Flux de caixa d'activitats sense classificar"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_cash_flow_report.py:0
+#: code:addons/til_account_reports/models/account_cash_flow_report.py:0
+#: code:addons/til_account_reports/models/account_cash_flow_report.py:0
+#, python-format
+msgid "Cash in"
+msgstr "Entrada de caixa"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_cash_flow_report.py:0
+#: code:addons/til_account_reports/models/account_cash_flow_report.py:0
+#: code:addons/til_account_reports/models/account_cash_flow_report.py:0
+#, python-format
+msgid "Cash out"
+msgstr "Sortida de caixa"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_cash_flow_report.py:0
+#, python-format
+msgid "Cash paid for operating activities"
+msgstr "Efectiu pagat per les activitats operatives"
+
+#. module: til_account_reports
+#: model:account.report.expression,report_line_name:til_account_reports.account_financial_report_executivesummary_cash_received0_balance
+#: model:account.report.line,name:til_account_reports.account_financial_report_executivesummary_cash_received0
+msgid "Cash received"
+msgstr "Recepció d'efectiu"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_cash_flow_report.py:0
+#, python-format
+msgid "Cash received from operating activities"
+msgstr "Efectiu rebut d'activitats operatives"
+
+#. module: til_account_reports
+#: model:account.report.expression,report_line_name:til_account_reports.account_financial_report_executivesummary_cash_spent0_balance
+#: model:account.report.line,name:til_account_reports.account_financial_report_executivesummary_cash_spent0
+msgid "Cash spent"
+msgstr "Efectiu gastat"
+
+#. module: til_account_reports
+#: model:account.report.expression,report_line_name:til_account_reports.account_financial_report_executivesummary_cash_surplus0_balance
+#: model:account.report.line,name:til_account_reports.account_financial_report_executivesummary_cash_surplus0
+msgid "Cash surplus"
+msgstr "Superàvit d'efectiu"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.aged_report_line_template
+msgid "Change expected payment date"
+msgstr "Canvia la data de pagament esperada"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_generic_tax_report.py:0
+#, python-format
+msgid "Closing Entry"
+msgstr "Tanca l'entrada"
+
+#. module: til_account_reports
+#: model:account.report.expression,report_line_name:til_account_reports.account_financial_report_executivesummary_closing_bank_balance0_balance
+#: model:account.report.line,name:til_account_reports.account_financial_report_executivesummary_closing_bank_balance0
+msgid "Closing bank balance"
+msgstr "Tancar balanç de bancs"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.account_report_form
+msgid "Columns"
+msgstr "Columnes"
+
+#. module: til_account_reports
+#: model:account.report.column,name:til_account_reports.general_ledger_report_communication
+msgid "Communication"
+msgstr "Comunicació"
+
+#. module: til_account_reports
+#: model:ir.model,name:til_account_reports.model_res_company
+#: model:ir.model.fields,field_description:til_account_reports.field_account_tax_unit__company_ids
+msgid "Companies"
+msgstr "Companyies"
+
+#. module: til_account_reports
+#: model:ir.model.fields,field_description:til_account_reports.field_account_multicurrency_revaluation_wizard__company_id
+#: model:ir.model.fields,field_description:til_account_reports.field_account_report_manager__company_id
+msgid "Company"
+msgstr "Empresa"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_tax.py:0
+#, python-format
+msgid ""
+"Company %s already belongs to a tax unit in %s. A company can at most be "
+"part of one tax unit per country."
+msgstr ""
+"Empresa%s ja pertany a una unitat d'impostos %s. Una empresa pot, com a "
+"màxim, formar part d'una unitat fiscal per país."
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.filter_info_template
+msgid "Company Currency:"
+msgstr "Moneda de l'empresa:"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.search_template_tax_unit
+msgid "Company Only"
+msgstr "Només empresa"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_report.py:0
+#, python-format
+msgid "Company Settings"
+msgstr "Configuració de l'empresa"
+
+#. module: til_account_reports
+#: model:ir.model,name:til_account_reports.model_res_config_settings
+msgid "Config Settings"
+msgstr "Ajustos de configuració"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_generic_tax_report.py:0
+#, python-format
+msgid "Configure your TAX accounts - %s"
+msgstr "Configureu els vostres comptes d'IMPOSTOS - %s"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.res_config_settings_view_form
+msgid "Configure your tax accounts"
+msgstr "Configureu els vostres comptes d'impostos"
+
+#. module: til_account_reports
+#: model:ir.model,name:til_account_reports.model_res_partner
+msgid "Contact"
+msgstr "Contacte"
+
+#. module: til_account_reports
+#: model:account.report.expression,report_line_name:til_account_reports.account_financial_report_cost_sales0_balance
+#: model:account.report.expression,report_line_name:til_account_reports.account_financial_report_executivesummary_direct_costs0_balance
+#: model:account.report.line,name:til_account_reports.account_financial_report_cost_sales0
+#: model:account.report.line,name:til_account_reports.account_financial_report_executivesummary_direct_costs0
+msgid "Cost of Revenue"
+msgstr "Cost directe de les vendes"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_report.py:0
+#, python-format
+msgid "Could not expand term %s while evaluating formula %s"
+msgstr ""
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_report.py:0
+#, python-format
+msgid "Could not find template %s, used as %s of %s."
+msgstr ""
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_report.py:0
+#, python-format
+msgid "Could not parse account_code formula from token '%s'"
+msgstr ""
+
+#. module: til_account_reports
+#: model:ir.model.fields,field_description:til_account_reports.field_account_tax_unit__country_id
+#: model_terms:ir.ui.view,arch_db:til_account_reports.line_template_journal_audit_report
+#: model_terms:ir.ui.view,arch_db:til_account_reports.view_account_report_search
+msgid "Country"
+msgstr "País"
+
+#. module: til_account_reports
+#: model:account.report.column,name:til_account_reports.account_financial_report_ec_sales_country
+msgid "Country Code"
+msgstr "Codi de país"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.view_account_multicurrency_revaluation_wizard
+msgid "Create Entry"
+msgstr "Crea entrada"
+
+#. module: til_account_reports
+#: model:ir.actions.server,name:til_account_reports.action_create_report_menu
+msgid "Create Menu Item"
+msgstr ""
+
+#. module: til_account_reports
+#: model:ir.model.fields,field_description:til_account_reports.field_account_multicurrency_revaluation_wizard__create_uid
+#: model:ir.model.fields,field_description:til_account_reports.field_account_report_footnote__create_uid
+#: model:ir.model.fields,field_description:til_account_reports.field_account_report_horizontal_group__create_uid
+#: model:ir.model.fields,field_description:til_account_reports.field_account_report_horizontal_group_rule__create_uid
+#: model:ir.model.fields,field_description:til_account_reports.field_account_report_manager__create_uid
+#: model:ir.model.fields,field_description:til_account_reports.field_account_reports_export_wizard__create_uid
+#: model:ir.model.fields,field_description:til_account_reports.field_account_reports_export_wizard_format__create_uid
+#: model:ir.model.fields,field_description:til_account_reports.field_account_tax_unit__create_uid
+msgid "Created by"
+msgstr "Creat per"
+
+#. module: til_account_reports
+#: model:ir.model.fields,field_description:til_account_reports.field_account_multicurrency_revaluation_wizard__create_date
+#: model:ir.model.fields,field_description:til_account_reports.field_account_report_footnote__create_date
+#: model:ir.model.fields,field_description:til_account_reports.field_account_report_horizontal_group__create_date
+#: model:ir.model.fields,field_description:til_account_reports.field_account_report_horizontal_group_rule__create_date
+#: model:ir.model.fields,field_description:til_account_reports.field_account_report_manager__create_date
+#: model:ir.model.fields,field_description:til_account_reports.field_account_reports_export_wizard__create_date
+#: model:ir.model.fields,field_description:til_account_reports.field_account_reports_export_wizard_format__create_date
+#: model:ir.model.fields,field_description:til_account_reports.field_account_tax_unit__create_date
+msgid "Created on"
+msgstr "Creat el"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_journal_report.py:0
+#: code:addons/til_account_reports/wizard/multicurrency_revaluation.py:0
+#: model:account.report.column,name:til_account_reports.general_ledger_report_credit
+#: model:account.report.column,name:til_account_reports.journal_report_debit
+#: model:account.report.column,name:til_account_reports.partner_ledger_report_credit
+#: model:account.report.column,name:til_account_reports.trial_balance_report_credit
+#, python-format
+msgid "Credit"
+msgstr "Haver"
+
+#. module: til_account_reports
+#: model:account.report.column,name:til_account_reports.aged_payable_report_currency
+#: model:account.report.column,name:til_account_reports.aged_receivable_report_currency
+#: model:account.report.column,name:til_account_reports.bank_reconciliation_report_currency
+#: model:account.report.column,name:til_account_reports.general_ledger_report_amount_currency
+msgid "Currency"
+msgstr "Divisa"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_multicurrency_revaluation_report.py:0
+#, python-format
+msgid "Currency Rates (%s)"
+msgstr "Tipus de canvi (%s)"
+
+#. module: til_account_reports
+#: model:account.report.line,name:til_account_reports.account_financial_report_current_assets0
+#: model:account.report.line,name:til_account_reports.account_financial_report_current_assets_view0
+msgid "Current Assets"
+msgstr "Actius actuals"
+
+#. module: til_account_reports
+#: model:account.report.expression,report_line_name:til_account_reports.account_financial_report_current_liabilities0_balance
+#: model:account.report.expression,report_line_name:til_account_reports.account_financial_report_current_liabilities1_balance
+#: model:account.report.line,name:til_account_reports.account_financial_report_current_liabilities0
+#: model:account.report.line,name:til_account_reports.account_financial_report_current_liabilities1
+msgid "Current Liabilities"
+msgstr "Passiu actual"
+
+#. module: til_account_reports
+#: model:account.report.expression,report_line_name:til_account_reports.account_financial_current_year_earnings_line_2_balance
+#: model:account.report.line,name:til_account_reports.account_financial_current_year_earnings_line_2
+msgid "Current Year Allocated Earnings"
+msgstr "Beneficis assignats l'any en curs"
+
+#. module: til_account_reports
+#: model:account.report.expression,report_line_name:til_account_reports.account_financial_current_year_earnings_line_1_balance
+#: model:account.report.line,name:til_account_reports.account_financial_current_year_earnings_line_1
+msgid "Current Year Earnings"
+msgstr "Guanys de l'exercici actual"
+
+#. module: til_account_reports
+#: model:account.report.line,name:til_account_reports.account_financial_current_year_earnings0
+msgid "Current Year Unallocated Earnings"
+msgstr "Any actual sense aprenentatge"
+
+#. module: til_account_reports
+#: model:account.report.expression,report_line_name:til_account_reports.account_financial_report_executivesummary_ca_to_l0_balance
+#: model:account.report.line,name:til_account_reports.account_financial_report_executivesummary_ca_to_l0
+msgid "Current assets to liabilities"
+msgstr "Actius corrents a passius"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.search_template_comparison
+#: model_terms:ir.ui.view,arch_db:til_account_reports.search_template_date_filter
+msgid "Custom"
+msgstr "Personalitzat"
+
+#. module: til_account_reports
+#: model:ir.model.fields,field_description:til_account_reports.field_account_report__custom_handler_model_id
+msgid "Custom Handler Model"
+msgstr ""
+
+#. module: til_account_reports
+#: model:ir.model.fields,field_description:til_account_reports.field_account_report__custom_handler_model_name
+msgid "Custom Handler Model Name"
+msgstr ""
+
+#. module: til_account_reports
+#: model:account.report.column,name:til_account_reports.bank_reconciliation_report_date
+#: model:account.report.column,name:til_account_reports.general_ledger_report_date
+#: model:ir.model.fields,field_description:til_account_reports.field_account_multicurrency_revaluation_wizard__date
+msgid "Date"
+msgstr "Data"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.search_template_comparison
+#: model_terms:ir.ui.view,arch_db:til_account_reports.search_template_date_filter
+msgid "Date :"
+msgstr "Data :"
+
+#. module: til_account_reports
+#. openerp-web
+#: code:addons/til_account_reports/static/src/js/til_account_reports.js:0
+#: code:addons/til_account_reports/static/src/js/til_account_reports.js:0
+#, python-format
+msgid "Date cannot be empty"
+msgstr "La data no pot estar buida"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.search_template_comparison
+#: model_terms:ir.ui.view,arch_db:til_account_reports.search_template_date_filter
+msgid "Date:"
+msgstr "Data:"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_journal_report.py:0
+#: code:addons/til_account_reports/wizard/multicurrency_revaluation.py:0
+#: model:account.report.column,name:til_account_reports.general_ledger_report_debit
+#: model:account.report.column,name:til_account_reports.journal_report_amount_currency
+#: model:account.report.column,name:til_account_reports.partner_ledger_report_debit
+#: model:account.report.column,name:til_account_reports.trial_balance_report_debit
+#, python-format
+msgid "Debit"
+msgstr "Deure"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.account_report_expression_form
+msgid "Definition"
+msgstr "Definició"
+
+#. module: til_account_reports
+#: model:ir.model.fields,field_description:til_account_reports.field_res_company__account_tax_periodicity
+msgid "Delay units"
+msgstr "Retard de les unitats"
+
+#. module: til_account_reports
+#: model:account.report.expression,report_line_name:til_account_reports.account_financial_report_depreciation0_balance
+#: model:account.report.line,name:til_account_reports.account_financial_report_depreciation0
+msgid "Depreciation"
+msgstr "Amortització"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.account_reports_journal_dashboard_kanban_view_account_manager
+msgid "Difference"
+msgstr "Diferència"
+
+#. module: til_account_reports
+#: model:ir.model.fields,field_description:til_account_reports.field_account_multicurrency_revaluation_wizard__display_name
+#: model:ir.model.fields,field_description:til_account_reports.field_account_report_footnote__display_name
+#: model:ir.model.fields,field_description:til_account_reports.field_account_report_horizontal_group__display_name
+#: model:ir.model.fields,field_description:til_account_reports.field_account_report_horizontal_group_rule__display_name
+#: model:ir.model.fields,field_description:til_account_reports.field_account_report_manager__display_name
+#: model:ir.model.fields,field_description:til_account_reports.field_account_reports_export_wizard__display_name
+#: model:ir.model.fields,field_description:til_account_reports.field_account_reports_export_wizard_format__display_name
+#: model:ir.model.fields,field_description:til_account_reports.field_account_tax_unit__display_name
+msgid "Display Name"
+msgstr "Nom a mostrar"
+
+#. module: til_account_reports
+#: model:ir.model.fields,field_description:til_account_reports.field_account_reports_export_wizard__doc_name
+msgid "Documents Name"
+msgstr "Nom dels documents"
+
+#. module: til_account_reports
+#: model:ir.model.fields,field_description:til_account_reports.field_account_report_horizontal_group_rule__domain
+msgid "Domain"
+msgstr "Domini "
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.search_template_fiscal_position_choser
+msgid "Domestic"
+msgstr "Domèstic"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.res_config_settings_view_form
+msgid "Download the Data Inalterability Check Report"
+msgstr ""
+"Descarregar l'informe de comprovació de la inalterabilitat de les dades"
+
+#. module: til_account_reports
+#: model:account.report.column,name:til_account_reports.aged_payable_report_due_date
+#: model:account.report.column,name:til_account_reports.aged_receivable_report_due_date
+#: model:account.report.column,name:til_account_reports.partner_ledger_report_date_maturity
+msgid "Due Date"
+msgstr "Data de venciment"
+
+#. module: til_account_reports
+#: model:ir.actions.client,name:til_account_reports.action_account_report_sales
+#: model:ir.ui.menu,name:til_account_reports.menu_action_account_report_sales
+msgid "EC Sales List"
+msgstr "Llista de vendes EC"
+
+#. module: til_account_reports
+#: model:ir.model,name:til_account_reports.model_account_ec_sales_report_handler
+msgid "EC Sales Report Custom Handler"
+msgstr ""
+
+#. module: til_account_reports
+#: model:account.report.line,name:til_account_reports.account_financial_report_equity0
+msgid "EQUITY"
+msgstr "EQUITAT"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_report.py:0
+#, python-format
+msgid ""
+"Editing a manual report line is not allowed in multivat setup when "
+"displaying data from all fiscal positions."
+msgstr ""
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_report.py:0
+#, python-format
+msgid ""
+"Editing a manual report line is not allowed when multiple companies are "
+"selected."
+msgstr ""
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_trial_balance_report.py:0
+#, python-format
+msgid "End Balance"
+msgstr "Balanç final"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.search_template_comparison
+#: model_terms:ir.ui.view,arch_db:til_account_reports.search_template_date_filter
+msgid "End Date :"
+msgstr "Data final :"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.search_template_date_filter
+msgid "End of Last Financial Year"
+msgstr "Fi de l'últim any financer"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.search_template_date_filter
+msgid "End of Last Month"
+msgstr "Fi de l'últim mes"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.search_template_date_filter
+msgid "End of Last Quarter"
+msgstr "Fi de l'últim trimestre"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_journal_report.py:0
+#, python-format
+msgid "Ending Balance :"
+msgstr ""
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_report.py:0
+#, python-format
+msgid "Error message"
+msgstr "Missatge d'error"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.multicurrency_report_line_template
+msgid "Exclude"
+msgstr "Exclou"
+
+#. module: til_account_reports
+#: model:ir.model.fields,field_description:til_account_reports.field_account_account__exclude_provision_currency_ids
+msgid "Exclude Provision Currency"
+msgstr "Excloure la provisió de moneda"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.multicurrency_report_line_template
+msgid "Exclude from adjustment/provisions entries"
+msgstr "Excloure de les entrades d'ajust/provisions"
+
+#. module: til_account_reports
+#: model:account.report.expression,report_line_name:til_account_reports.multicurrency_revaluation_excluded_adjustment
+#: model:account.report.expression,report_line_name:til_account_reports.multicurrency_revaluation_excluded_balance_currency
+#: model:account.report.expression,report_line_name:til_account_reports.multicurrency_revaluation_excluded_balance_current
+#: model:account.report.expression,report_line_name:til_account_reports.multicurrency_revaluation_excluded_balance_operation
+#: model:account.report.line,name:til_account_reports.multicurrency_revaluation_excluded
+msgid "Excluded Accounts"
+msgstr "Comptes exclosos"
+
+#. module: til_account_reports
+#: model:account.report,name:til_account_reports.executive_summary
+#: model:ir.actions.client,name:til_account_reports.action_account_report_exec_summary
+#: model:ir.ui.menu,name:til_account_reports.menu_action_account_report_exec_summary
+msgid "Executive Summary"
+msgstr "Resum executiu"
+
+#. module: til_account_reports
+#: model:account.report.column,name:til_account_reports.aged_payable_report_expected_date
+#: model:account.report.column,name:til_account_reports.aged_receivable_report_expected_date
+#: model:ir.model.fields,field_description:til_account_reports.field_account_move_line__expected_pay_date
+msgid "Expected Date"
+msgstr "Data prevista"
+
+#. module: til_account_reports
+#. openerp-web
+#: code:addons/til_account_reports/static/src/xml/account_report_template.xml:0
+#, python-format
+msgid "Expected Payment Date"
+msgstr "Data esperada de pagament"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/res_partner.py:0
+#, python-format
+msgid "Expected pay date has been changed from %s to %s"
+msgstr "S'ha canviat la data de pagament prevista de %s a %s"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/res_partner.py:0
+#, python-format
+msgid "Expected pay date has been changed from %s to %s for invoice %s"
+msgstr "S'ha canviat la data de pagament prevista de%s a %s per factura %s"
+
+#. module: til_account_reports
+#: model:ir.model.fields,help:til_account_reports.field_account_move_line__expected_pay_date
+msgid ""
+"Expected payment date as manually set through the customer statement(e.g: if"
+" you had the customer on the phone and want to remember the date he promised"
+" he would pay)"
+msgstr ""
+
+#. module: til_account_reports
+#: model:ir.model.fields,field_description:til_account_reports.field_account_multicurrency_revaluation_wizard__expense_provision_account_id
+msgid "Expense Account"
+msgstr "Compte de despeses"
+
+#. module: til_account_reports
+#: model:ir.model.fields,field_description:til_account_reports.field_res_company__account_revaluation_expense_provision_account_id
+msgid "Expense Provision Account"
+msgstr "Compte de provisió de despeses"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/wizard/multicurrency_revaluation.py:0
+#, python-format
+msgid "Expense Provision for %s"
+msgstr ""
+
+#. module: til_account_reports
+#: model:account.report.expression,report_line_name:til_account_reports.account_financial_report_executivesummary_expenses0_balance
+#: model:account.report.expression,report_line_name:til_account_reports.account_financial_report_expense0_balance
+#: model:account.report.expression,report_line_name:til_account_reports.account_financial_report_less_expenses0_balance
+#: model:account.report.line,name:til_account_reports.account_financial_report_executivesummary_expenses0
+#: model:account.report.line,name:til_account_reports.account_financial_report_expense0
+#: model:account.report.line,name:til_account_reports.account_financial_report_less_expenses0
+msgid "Expenses"
+msgstr "Despeses"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_report.py:0
+#: model_terms:ir.ui.view,arch_db:til_account_reports.view_report_export_wizard
+#, python-format
+msgid "Export"
+msgstr "Exportar"
+
+#. module: til_account_reports
+#: model:ir.model,name:til_account_reports.model_account_reports_export_wizard_format
+msgid "Export format for accounting's reports"
+msgstr ""
+
+#. module: til_account_reports
+#: model:ir.model.fields,field_description:til_account_reports.field_account_reports_export_wizard__export_format_ids
+msgid "Export to"
+msgstr "Exportar a "
+
+#. module: til_account_reports
+#: model:ir.model,name:til_account_reports.model_account_reports_export_wizard
+msgid "Export wizard for accounting's reports"
+msgstr "Assistent d'exportació d'informes de comptabilitat"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.account_report_expression_form
+msgid "Expression"
+msgstr "Expressió"
+
+#. module: til_account_reports
+#: model:ir.model.fields,field_description:til_account_reports.field_account_report_horizontal_group_rule__field_name
+msgid "Field"
+msgstr "Camp"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_report.py:0
+#, python-format
+msgid "Field %s does not exist on account.move.line."
+msgstr ""
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_report.py:0
+#, python-format
+msgid ""
+"Field %s of account.move.line is not stored, and hence cannot be used in a "
+"groupby expression"
+msgstr ""
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_report.py:0
+#, python-format
+msgid ""
+"Field 'Custom Handler Model' can only reference records inheriting from "
+"[%s]."
+msgstr ""
+
+#. module: til_account_reports
+#: model:ir.model.fields,field_description:til_account_reports.field_account_report__filter_analytic_groupby
+msgid "Filter Analytic Groupby"
+msgstr ""
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.filter_info_template
+msgid "Filter:"
+msgstr "Filtre:"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.account_report_form
+msgid "Filters"
+msgstr "Filtres"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.line_template
+msgid "Folded"
+msgstr "Replegat"
+
+#. module: til_account_reports
+#: model:ir.model.fields,field_description:til_account_reports.field_account_report_manager__footnotes_ids
+msgid "Footnotes"
+msgstr "Administrador de peus de pàgina"
+
+#. module: til_account_reports
+#: model:ir.model.fields,field_description:til_account_reports.field_account_report__footnotes_template
+msgid "Footnotes Template"
+msgstr ""
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/wizard/multicurrency_revaluation.py:0
+#, python-format
+msgid "Foreign currencies adjustment entry as of %s"
+msgstr "Entrada d'ajust de les monedes estrangeres a partir de %s"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_report.py:0
+#, python-format
+msgid ""
+"From %s\n"
+"to  %s"
+msgstr ""
+"De %s\n"
+"a  %s"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.search_template_date_filter
+msgid "From:"
+msgstr "Des de:"
+
+#. module: til_account_reports
+#: model:ir.model.fields,field_description:til_account_reports.field_account_reports_export_wizard_format__fun_param
+msgid "Function Parameter"
+msgstr ""
+
+#. module: til_account_reports
+#: model:ir.model.fields,field_description:til_account_reports.field_account_reports_export_wizard_format__fun_to_call
+msgid "Function to Call"
+msgstr "Funció a trucar"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_report.py:0
+#: code:addons/til_account_reports/models/account_trial_balance_report.py:0
+#: model:account.report,name:til_account_reports.general_ledger_report
+#: model:ir.actions.client,name:til_account_reports.action_account_report_general_ledger
+#: model:ir.ui.menu,name:til_account_reports.menu_action_account_report_general_ledger
+#, python-format
+msgid "General Ledger"
+msgstr "Llibre major"
+
+#. module: til_account_reports
+#: model:ir.model,name:til_account_reports.model_account_general_ledger_report_handler
+msgid "General Ledger Custom Handler"
+msgstr ""
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/wizard/report_export_wizard.py:0
+#, python-format
+msgid "Generated Documents"
+msgstr "Documents Generats"
+
+#. module: til_account_reports
+#: model:account.report,name:til_account_reports.generic_ec_sales_report
+msgid "Generic EC Sales List"
+msgstr ""
+
+#. module: til_account_reports
+#: model:ir.model,name:til_account_reports.model_account_generic_tax_report_handler
+msgid "Generic Tax Report Custom Handler"
+msgstr ""
+
+#. module: til_account_reports
+#: model:ir.model,name:til_account_reports.model_account_generic_tax_report_handler_account_tax
+msgid "Generic Tax Report Custom Handler (Account -> Tax)"
+msgstr ""
+
+#. module: til_account_reports
+#: model:ir.model,name:til_account_reports.model_account_generic_tax_report_handler_tax_account
+msgid "Generic Tax Report Custom Handler (Tax -> Account)"
+msgstr ""
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_sales_report.py:0
+#, python-format
+msgid "Goods"
+msgstr "Mercaderies"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.line_template_journal_audit_report
+msgid "Grid"
+msgstr "Graella"
+
+#. module: til_account_reports
+#: model:account.report.expression,report_line_name:til_account_reports.account_financial_report_gross_profit0_balance
+#: model:account.report.line,name:til_account_reports.account_financial_report_gross_profit0
+msgid "Gross Profit"
+msgstr "Benefici brut"
+
+#. module: til_account_reports
+#: model:account.report.expression,report_line_name:til_account_reports.account_financial_report_executivesummary_gross_profit0_balance
+#: model:account.report.line,name:til_account_reports.account_financial_report_executivesummary_gross_profit0
+msgid "Gross profit"
+msgstr "Benefici brut"
+
+#. module: til_account_reports
+#: model:account.report.expression,report_line_name:til_account_reports.account_financial_report_executivesummary_gpmargin0_balance
+#: model:account.report.line,name:til_account_reports.account_financial_report_executivesummary_gpmargin0
+msgid "Gross profit margin (gross profit / operating income)"
+msgstr "Marge de benefici brut (guany bruta / ingrés operatiu)"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.view_account_report_search
+msgid "Group By"
+msgstr "Agrupar per"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.search_template_extra_options_journal_audit_report
+msgid "Group By Months"
+msgstr ""
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.account_report_horizontal_group_form
+msgid "Group Name"
+msgstr "Nom del Grup"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.search_template_extra_options_journal_audit_report
+msgid "Group by months"
+msgstr ""
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.filter_info_template
+msgid "Groupby:"
+msgstr "Agrupat:"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.search_template_extra_options_journal_audit_report
+msgid "Grouped by month"
+msgstr ""
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.search_template_extra_options
+msgid "Hierarchy"
+msgstr "Jerarquia"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.search_template_extra_options
+msgid "Hierarchy and Subtotals"
+msgstr "Jerarquia i subtotals"
+
+#. module: til_account_reports
+#: model:ir.model.fields,field_description:til_account_reports.field_account_report_horizontal_group_rule__horizontal_group_id
+msgid "Horizontal Group"
+msgstr ""
+
+#. module: til_account_reports
+#: model:ir.actions.act_window,name:til_account_reports.action_account_report_horizontal_groups
+#: model:ir.model.fields,field_description:til_account_reports.field_account_report__horizontal_group_ids
+#: model:ir.ui.menu,name:til_account_reports.menu_action_account_report_horizontal_groups
+msgid "Horizontal Groups"
+msgstr ""
+
+#. module: til_account_reports
+#: model:ir.model,name:til_account_reports.model_account_report_horizontal_group
+msgid "Horizontal group for reports"
+msgstr ""
+
+#. module: til_account_reports
+#: model:ir.model,name:til_account_reports.model_account_report_horizontal_group_rule
+msgid "Horizontal group rule for reports"
+msgstr ""
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.res_config_settings_view_form
+msgid "How often tax returns have to be made"
+msgstr "Amb quina freqüència s'han de realitzar els beneficis fiscals"
+
+#. module: til_account_reports
+#: model:ir.model.fields,field_description:til_account_reports.field_account_multicurrency_revaluation_wizard__id
+#: model:ir.model.fields,field_description:til_account_reports.field_account_report_footnote__id
+#: model:ir.model.fields,field_description:til_account_reports.field_account_report_horizontal_group__id
+#: model:ir.model.fields,field_description:til_account_reports.field_account_report_horizontal_group_rule__id
+#: model:ir.model.fields,field_description:til_account_reports.field_account_report_manager__id
+#: model:ir.model.fields,field_description:til_account_reports.field_account_reports_export_wizard__id
+#: model:ir.model.fields,field_description:til_account_reports.field_account_reports_export_wizard_format__id
+#: model:ir.model.fields,field_description:til_account_reports.field_account_tax_unit__id
+msgid "ID"
+msgstr "ID"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.line_template_journal_audit_report
+msgid "Impact On Grid"
+msgstr "Impacte a la graella"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.line_template_journal_audit_report
+msgid ""
+"Impacted Tax Grids\n"
+"                                        &amp;nbsp;"
+msgstr ""
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.multicurrency_report_line_template
+msgid "Include"
+msgstr "Incloure"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.search_template_extra_options
+msgid "Include Analytic Simulations"
+msgstr ""
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.search_template_extra_options_journal_audit_report
+msgid "Include Payments"
+msgstr ""
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.search_template_extra_options
+#: model_terms:ir.ui.view,arch_db:til_account_reports.search_template_extra_options_journal_audit_report
+msgid "Include Unposted Entries"
+msgstr "Incloure no assentats"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.multicurrency_report_line_template
+msgid "Include in adjustment/provisions entries"
+msgstr ""
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.search_template_extra_options
+#: model_terms:ir.ui.view,arch_db:til_account_reports.search_template_extra_options_journal_audit_report
+msgid "Include unposted entries"
+msgstr "Incloure no assentats"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.search_template_extra_options
+msgid "Including Analytic Simulations"
+msgstr ""
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_bank_reconciliation_report.py:0
+#, python-format
+msgid "Including Unreconciled Bank Statement Payments"
+msgstr ""
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_bank_reconciliation_report.py:0
+#, python-format
+msgid "Including Unreconciled Bank Statement Receipts"
+msgstr ""
+
+#. module: til_account_reports
+#: model:account.report.expression,report_line_name:til_account_reports.account_financial_report_executivesummary_income0_balance
+#: model:account.report.expression,report_line_name:til_account_reports.account_financial_report_totalincome0_balance
+#: model:account.report.line,name:til_account_reports.account_financial_report_executivesummary_income0
+#: model:account.report.line,name:til_account_reports.account_financial_report_totalincome0
+msgid "Income"
+msgstr "Ingrés"
+
+#. module: til_account_reports
+#: model:ir.model.fields,field_description:til_account_reports.field_account_multicurrency_revaluation_wizard__income_provision_account_id
+msgid "Income Account"
+msgstr "Compte d'ingressos"
+
+#. module: til_account_reports
+#: model:ir.model.fields,field_description:til_account_reports.field_res_company__account_revaluation_income_provision_account_id
+msgid "Income Provision Account"
+msgstr "Compte de provisió d'ingressos"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/wizard/multicurrency_revaluation.py:0
+#, python-format
+msgid "Income Provision for %s"
+msgstr ""
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_bank_reconciliation_report.py:0
+#, python-format
+msgid "Inconsistent Statements"
+msgstr "Declaracions inconsistents"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_report.py:0
+#, python-format
+msgid ""
+"Inconsistent data: more than one external value at the same date for a "
+"'most_recent' external line."
+msgstr ""
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_report.py:0
+#, python-format
+msgid ""
+"Inconsistent report_id in options dictionary. Options says %s; report is %s."
+msgstr ""
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_report.py:0
+#: code:addons/til_account_reports/models/account_trial_balance_report.py:0
+#, python-format
+msgid "Initial Balance"
+msgstr "Saldo inicial"
+
+#. module: til_account_reports
+#. openerp-web
+#: code:addons/til_account_reports/static/src/xml/account_report_template.xml:0
+#, python-format
+msgid "Insert foot note here"
+msgstr "Inserir peu de pàgina aquí"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_report.py:0
+#, python-format
+msgid "Invalid token '%s' in account_codes formula '%s'"
+msgstr ""
+
+#. module: til_account_reports
+#: model:account.report.column,name:til_account_reports.partner_ledger_report_journal_code
+msgid "JRNL"
+msgstr "LLIBRE"
+
+#. module: til_account_reports
+#: model:ir.model,name:til_account_reports.model_account_journal
+#: model:ir.model.fields,field_description:til_account_reports.field_account_financial_year_op__account_tax_periodicity_journal_id
+#: model:ir.model.fields,field_description:til_account_reports.field_account_multicurrency_revaluation_wizard__journal_id
+#: model:ir.model.fields,field_description:til_account_reports.field_res_company__account_tax_periodicity_journal_id
+#: model:ir.model.fields,field_description:til_account_reports.field_res_config_settings__account_tax_periodicity_journal_id
+#: model_terms:ir.ui.view,arch_db:til_account_reports.res_config_settings_view_form
+#: model_terms:ir.ui.view,arch_db:til_account_reports.setup_financial_year_opening_form
+msgid "Journal"
+msgstr "Diari"
+
+#. module: til_account_reports
+#: model:ir.model,name:til_account_reports.model_account_move
+msgid "Journal Entry"
+msgstr "Assentament comptable"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_report.py:0
+#, python-format
+msgid "Journal Groups"
+msgstr "Grups de Diaris"
+
+#. module: til_account_reports
+#: model:ir.model,name:til_account_reports.model_account_move_line
+msgid "Journal Item"
+msgstr "Apunt comptable"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_bank_reconciliation_report.py:0
+#: code:addons/til_account_reports/models/account_report.py:0
+#: code:addons/til_account_reports/models/account_trial_balance_report.py:0
+#, python-format
+msgid "Journal Items"
+msgstr "Apunts comptables"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_generic_tax_report.py:0
+#: code:addons/til_account_reports/models/account_journal_report.py:0
+#, python-format
+msgid "Journal Items for Tax Audit"
+msgstr "Elements del diari per a l'auditoria fiscal"
+
+#. module: til_account_reports
+#: model:account.report,name:til_account_reports.journal_report
+#: model:ir.actions.client,name:til_account_reports.action_account_report_ja
+#: model:ir.ui.menu,name:til_account_reports.menu_action_account_report_ja
+msgid "Journal Report"
+msgstr ""
+
+#. module: til_account_reports
+#: model:ir.model,name:til_account_reports.model_account_journal_report_handler
+msgid "Journal Report Custom Handler"
+msgstr ""
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.filter_info_template
+msgid "Journals:"
+msgstr "Diaris:"
+
+#. module: til_account_reports
+#: model:account.report.expression,report_line_name:til_account_reports.account_financial_report_liabilities_view0_balance
+#: model:account.report.line,name:til_account_reports.account_financial_report_liabilities_view0
+msgid "LIABILITIES"
+msgstr "PASIUS"
+
+#. module: til_account_reports
+#: model:account.report.expression,report_line_name:til_account_reports.account_financial_report_liabilities_and_equity_view0_balance
+#: model:account.report.line,name:til_account_reports.account_financial_report_liabilities_and_equity_view0
+msgid "LIABILITIES + EQUITY"
+msgstr "PASSIUS + EQUITAT"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_journal_report.py:0
+#: code:addons/til_account_reports/wizard/multicurrency_revaluation.py:0
+#: model:account.report.column,name:til_account_reports.bank_reconciliation_report_label
+#: model:account.report.column,name:til_account_reports.journal_report_partner_name
+#, python-format
+msgid "Label"
+msgstr "Etiqueta"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.search_template_date_filter
+msgid "Last Financial Year"
+msgstr "Últim any financer"
+
+#. module: til_account_reports
+#: model:ir.model.fields,field_description:til_account_reports.field_account_multicurrency_revaluation_wizard____last_update
+#: model:ir.model.fields,field_description:til_account_reports.field_account_report_footnote____last_update
+#: model:ir.model.fields,field_description:til_account_reports.field_account_report_horizontal_group____last_update
+#: model:ir.model.fields,field_description:til_account_reports.field_account_report_horizontal_group_rule____last_update
+#: model:ir.model.fields,field_description:til_account_reports.field_account_report_manager____last_update
+#: model:ir.model.fields,field_description:til_account_reports.field_account_reports_export_wizard____last_update
+#: model:ir.model.fields,field_description:til_account_reports.field_account_reports_export_wizard_format____last_update
+#: model:ir.model.fields,field_description:til_account_reports.field_account_tax_unit____last_update
+msgid "Last Modified on"
+msgstr "Última modificació el "
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.search_template_date_filter
+msgid "Last Month"
+msgstr "Últim mes"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.search_template_date_filter
+msgid "Last Quarter"
+msgstr "Últim trimestre"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.bank_reconciliation_report_cell_template_link_last_statement
+msgid "Last Statement:"
+msgstr "Última declaració:"
+
+#. module: til_account_reports
+#: model:ir.model.fields,field_description:til_account_reports.field_account_multicurrency_revaluation_wizard__write_uid
+#: model:ir.model.fields,field_description:til_account_reports.field_account_report_footnote__write_uid
+#: model:ir.model.fields,field_description:til_account_reports.field_account_report_horizontal_group__write_uid
+#: model:ir.model.fields,field_description:til_account_reports.field_account_report_horizontal_group_rule__write_uid
+#: model:ir.model.fields,field_description:til_account_reports.field_account_report_manager__write_uid
+#: model:ir.model.fields,field_description:til_account_reports.field_account_reports_export_wizard__write_uid
+#: model:ir.model.fields,field_description:til_account_reports.field_account_reports_export_wizard_format__write_uid
+#: model:ir.model.fields,field_description:til_account_reports.field_account_tax_unit__write_uid
+msgid "Last Updated by"
+msgstr "Última actualització per"
+
+#. module: til_account_reports
+#: model:ir.model.fields,field_description:til_account_reports.field_account_multicurrency_revaluation_wizard__write_date
+#: model:ir.model.fields,field_description:til_account_reports.field_account_report_footnote__write_date
+#: model:ir.model.fields,field_description:til_account_reports.field_account_report_horizontal_group__write_date
+#: model:ir.model.fields,field_description:til_account_reports.field_account_report_horizontal_group_rule__write_date
+#: model:ir.model.fields,field_description:til_account_reports.field_account_report_manager__write_date
+#: model:ir.model.fields,field_description:til_account_reports.field_account_reports_export_wizard__write_date
+#: model:ir.model.fields,field_description:til_account_reports.field_account_reports_export_wizard_format__write_date
+#: model:ir.model.fields,field_description:til_account_reports.field_account_tax_unit__write_date
+msgid "Last Updated on"
+msgstr "Última actualització el"
+
+#. module: til_account_reports
+#: model:ir.model.fields,field_description:til_account_reports.field_account_report_footnote__line
+msgid "Line"
+msgstr "Línia "
+
+#. module: til_account_reports
+#: model:ir.model.fields,field_description:til_account_reports.field_account_report__line_template
+msgid "Line Template"
+msgstr ""
+
+#. module: til_account_reports
+#. openerp-web
+#: code:addons/til_account_reports/static/src/xml/account_report_template.xml:0
+#, python-format
+msgid "Line without formula"
+msgstr ""
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.account_report_form
+msgid "Lines"
+msgstr "Línies"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_report.py:0
+#, python-format
+msgid "Load more..."
+msgstr ""
+
+#. module: til_account_reports
+#: model:ir.model.fields,field_description:til_account_reports.field_account_tax_unit__main_company_id
+msgid "Main Company"
+msgstr "Empresa principal"
+
+#. module: til_account_reports
+#: model:ir.model.fields,field_description:til_account_reports.field_account_report__main_table_header_template
+msgid "Main Table Header Template"
+msgstr ""
+
+#. module: til_account_reports
+#: model:ir.model.fields,field_description:til_account_reports.field_account_report__main_template
+msgid "Main Template"
+msgstr ""
+
+#. module: til_account_reports
+#: model:ir.model.fields,help:til_account_reports.field_account_tax_unit__main_company_id
+msgid ""
+"Main company of this unit; the one actually reporting and paying the taxes."
+msgstr ""
+"La principal empresa d'aquesta unitat; la que realment informa i paga els "
+"impostos."
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_multicurrency_revaluation_report.py:0
+#: model_terms:ir.ui.view,arch_db:til_account_reports.view_account_multicurrency_revaluation_wizard
+#, python-format
+msgid "Make Adjustment Entry"
+msgstr "Fes una entrada d'ajustament"
+
+#. module: til_account_reports
+#: model:ir.model,name:til_account_reports.model_account_report_manager
+msgid "Manage Summary and Footnotes of Reports"
+msgstr "Gestionar el resum i les notes al peu dels informes"
+
+#. module: til_account_reports
+#: model:ir.model.fields,field_description:til_account_reports.field_account_report_footnote__manager_id
+msgid "Manager"
+msgstr "Director"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_report.py:0
+#, python-format
+msgid "Manual value"
+msgstr ""
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_report.py:0
+#, python-format
+msgid "Manual values"
+msgstr ""
+
+#. module: til_account_reports
+#: model:account.report.column,name:til_account_reports.partner_ledger_report_matching_number
+msgid "Matching Number"
+msgstr "Assentament de conciliació"
+
+#. module: til_account_reports
+#: model:ir.model.fields,help:til_account_reports.field_account_tax_unit__company_ids
+msgid "Members of this unit"
+msgstr "Membres d'aquesta unitat"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_report.py:0
+#, python-format
+msgid "Method '%s' must start with the '%s' prefix."
+msgstr ""
+
+#. module: til_account_reports
+#: model:ir.model.fields,field_description:til_account_reports.field_account_report_horizontal_group_rule__res_model_name
+msgid "Model"
+msgstr "Model"
+
+#. module: til_account_reports
+#: model:ir.model,name:til_account_reports.model_account_multicurrency_revaluation_report_handler
+msgid "Multicurrency Revaluation Report Custom Handler"
+msgstr ""
+
+#. module: til_account_reports
+#: model:ir.model,name:til_account_reports.model_account_multicurrency_revaluation_wizard
+msgid "Multicurrency Revaluation Wizard"
+msgstr "Assistent de revaluació de multidivisa"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/res_company.py:0
+#, python-format
+msgid ""
+"Multiple draft tax closing entries exist for fiscal position %s after %s. There should be at most one. \n"
+" %s"
+msgstr ""
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/res_company.py:0
+#, python-format
+msgid ""
+"Multiple draft tax closing entries exist for your domestic region after %s. There should be at most one. \n"
+" %s"
+msgstr ""
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_general_ledger.py:0
+#: code:addons/til_account_reports/models/account_journal_report.py:0
+#: model:ir.model.fields,field_description:til_account_reports.field_account_report_horizontal_group__name
+#: model:ir.model.fields,field_description:til_account_reports.field_account_reports_export_wizard_format__name
+#: model:ir.model.fields,field_description:til_account_reports.field_account_tax_unit__name
+#: model_terms:ir.ui.view,arch_db:til_account_reports.line_template_journal_audit_report
+#, python-format
+msgid "Name"
+msgstr "Nom"
+
+#. module: til_account_reports
+#: model:ir.model.fields,help:til_account_reports.field_account_reports_export_wizard__doc_name
+msgid "Name to give to the generated documents."
+msgstr ""
+
+#. module: til_account_reports
+#: model:account.report.expression,report_line_name:til_account_reports.account_financial_report_executivesummary_profit0_balance
+#: model:account.report.expression,report_line_name:til_account_reports.account_financial_report_net_profit0_balance
+#: model:account.report.line,name:til_account_reports.account_financial_report_executivesummary_profit0
+#: model:account.report.line,name:til_account_reports.account_financial_report_net_profit0
+msgid "Net Profit"
+msgstr "Benefici net"
+
+#. module: til_account_reports
+#: model:account.report.expression,report_line_name:til_account_reports.account_financial_report_executivesummary_net_assets0_balance
+#: model:account.report.expression,report_line_name:til_account_reports.account_financial_report_executivesummary_net_assets0_na_balance
+#: model:account.report.line,name:til_account_reports.account_financial_report_executivesummary_net_assets0
+msgid "Net assets"
+msgstr "Actius nets"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_cash_flow_report.py:0
+#, python-format
+msgid "Net increase in cash and cash equivalents"
+msgstr "Augment net en efectiu i equivalents d'efectiu"
+
+#. module: til_account_reports
+#: model:account.report.expression,report_line_name:til_account_reports.account_financial_report_executivesummary_npmargin0_balance
+#: model:account.report.line,name:til_account_reports.account_financial_report_executivesummary_npmargin0
+msgid "Net profit margin (net profit / income)"
+msgstr "Marge de benefici net (benefici net / ingressos nets)"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.search_template_comparison
+msgid "No Comparison"
+msgstr "Sense comparació"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_report.py:0
+#, python-format
+msgid "No VAT number associated with your company. Please define one."
+msgstr ""
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/wizard/multicurrency_revaluation.py:0
+#, python-format
+msgid "No adjustment needed"
+msgstr "No cal cap ajust"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/wizard/multicurrency_revaluation.py:0
+#, python-format
+msgid "No provision needed was found."
+msgstr "No s'ha trobat cap disposició necessària."
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_report.py:0
+#, python-format
+msgid "Non Trade Partners"
+msgstr ""
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_report.py:0
+#, python-format
+msgid "Non Trade Payable"
+msgstr ""
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_report.py:0
+#, python-format
+msgid "Non Trade Receivable"
+msgstr ""
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.filter_info_template
+#: model_terms:ir.ui.view,arch_db:til_account_reports.search_template_horizontal_groups
+msgid "None"
+msgstr "Cap"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.search_template_comparison
+msgid "Number of periods :"
+msgstr "Nombre de períodes:"
+
+#. module: til_account_reports
+#: model:account.report.line,name:til_account_reports.account_financial_report_off_sheet
+msgid "OFF BALANCE SHEET ACCOUNTS"
+msgstr "DESACTIVEU ELS COMPTES DEL BALANÇ"
+
+#. module: til_account_reports
+#. openerp-web
+#: code:addons/til_account_reports/static/src/js/til_account_reports.js:0
+#: code:addons/til_account_reports/static/src/js/til_account_reports.js:0
+#, python-format
+msgid "Odoo Warning"
+msgstr "Alerta d'Odoo"
+
+#. module: til_account_reports
+#: model:account.report.column,name:til_account_reports.aged_payable_report_period5
+#: model:account.report.column,name:til_account_reports.aged_receivable_report_period5
+msgid "Older"
+msgstr "Més antiga"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/wizard/report_export_wizard.py:0
+#, python-format
+msgid "One of the formats chosen can not be exported in the DMS"
+msgstr "Un dels formats seleccionats no es pot exportar al DMS"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_move.py:0
+#, python-format
+msgid "Only Billing Administrators are allowed to change lock dates!"
+msgstr ""
+"Només es permet als administradors de facturació canviar les dates de "
+"bloqueig!"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.search_template_extra_options
+msgid "Only Show Unreconciled Entries"
+msgstr "Mostra només les entrades no conciliades"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.aged_report_line_template
+#: model_terms:ir.ui.view,arch_db:til_account_reports.line_template_partner_ledger_report
+msgid "Open"
+msgstr "Oberts"
+
+#. module: til_account_reports
+#: model:ir.model,name:til_account_reports.model_account_financial_year_op
+msgid "Opening Balance of Financial Year"
+msgstr "Saldos d' obertura de l' any financer"
+
+#. module: til_account_reports
+#: model:account.report.expression,report_line_name:til_account_reports.account_financial_report_income0_balance
+#: model:account.report.line,name:til_account_reports.account_financial_report_income0
+msgid "Operating Income"
+msgstr "Ingressos d'explotació"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.account_report_expression_form
+#: model_terms:ir.ui.view,arch_db:til_account_reports.account_report_form
+msgid "Options"
+msgstr "Opcions"
+
+#. module: til_account_reports
+#: model:account.report.expression,report_line_name:til_account_reports.account_financial_report_other_income0_balance
+#: model:account.report.line,name:til_account_reports.account_financial_report_other_income0
+msgid "Other Income"
+msgstr "Altre ingrés"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_bank_reconciliation_report.py:0
+#: model_terms:ir.ui.view,arch_db:til_account_reports.account_reports_journal_dashboard_kanban_view
+#, python-format
+msgid "Outstanding Payments/Receipts"
+msgstr "Pagaments/Recepcions pendents"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_report.py:0
+#: code:addons/til_account_reports/models/account_report.py:0
+#, python-format
+msgid "PDF"
+msgstr "PDF"
+
+#. module: til_account_reports
+#: model:ir.model.fields,field_description:til_account_reports.field_account_reports_export_wizard__report_id
+msgid "Parent Report Id"
+msgstr "Informe dels pares ID"
+
+#. module: til_account_reports
+#: model:ir.model.fields,field_description:til_account_reports.field_account_reports_export_wizard_format__export_wizard_id
+msgid "Parent Wizard"
+msgstr "Assistent per a pares"
+
+#. module: til_account_reports
+#: model:account.report.column,name:til_account_reports.general_ledger_report_partner_name
+msgid "Partner"
+msgstr "Empresa"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.filter_info_template
+msgid "Partner Categories:"
+msgstr ""
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/res_partner.py:0
+#: model:account.report,name:til_account_reports.partner_ledger_report
+#: model:ir.actions.client,name:til_account_reports.action_account_report_partner_ledger
+#: model:ir.ui.menu,name:til_account_reports.menu_action_account_report_partner_ledger
+#: model_terms:ir.ui.view,arch_db:til_account_reports.partner_view_buttons
+#, python-format
+msgid "Partner Ledger"
+msgstr "Llibre major d'empresa"
+
+#. module: til_account_reports
+#: model:ir.model,name:til_account_reports.model_account_partner_ledger_report_handler
+msgid "Partner Ledger Custom Handler"
+msgstr ""
+
+#. module: til_account_reports
+#: model:ir.ui.menu,name:til_account_reports.account_reports_partners_reports_menu
+msgid "Partner Reports"
+msgstr ""
+
+#. module: til_account_reports
+#. openerp-web
+#: code:addons/til_account_reports/static/src/js/til_account_reports.js:0
+#, python-format
+msgid "Partners"
+msgstr "Empreses"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.filter_info_template
+msgid "Partners:"
+msgstr "Partners:"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_report.py:0
+#, python-format
+msgid "Payable"
+msgstr "A pagar"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_generic_tax_report.py:0
+#, python-format
+msgid "Payable tax amount"
+msgstr ""
+
+#. module: til_account_reports
+#: model:account.report.expression,report_line_name:til_account_reports.account_financial_report_current_liabilities_payable_balance
+#: model:account.report.expression,report_line_name:til_account_reports.account_financial_report_executivesummary_creditors0_balance
+#: model:account.report.line,name:til_account_reports.account_financial_report_current_liabilities_payable
+#: model:account.report.line,name:til_account_reports.account_financial_report_executivesummary_creditors0
+msgid "Payables"
+msgstr "A Pagar"
+
+#. module: til_account_reports
+#: model:account.report.line,name:til_account_reports.account_financial_report_executivesummary_performance0
+msgid "Performance"
+msgstr "Rendiment"
+
+#. module: til_account_reports
+#: model:ir.model.fields,field_description:til_account_reports.field_res_config_settings__account_tax_periodicity
+#: model:ir.model.fields,help:til_account_reports.field_account_financial_year_op__account_tax_periodicity
+#: model:ir.model.fields,help:til_account_reports.field_res_company__account_tax_periodicity
+#: model:ir.model.fields,help:til_account_reports.field_res_config_settings__account_tax_periodicity
+#: model_terms:ir.ui.view,arch_db:til_account_reports.res_config_settings_view_form
+#: model_terms:ir.ui.view,arch_db:til_account_reports.setup_financial_year_opening_form
+msgid "Periodicity"
+msgstr "Periodicitat"
+
+#. module: til_account_reports
+#: model:ir.model.fields,field_description:til_account_reports.field_account_financial_year_op__account_tax_periodicity
+msgid "Periodicity in month"
+msgstr "Periodicitat en el mes"
+
+#. module: til_account_reports
+#. openerp-web
+#: code:addons/til_account_reports/static/src/js/til_account_reports.js:0
+#, python-format
+msgid "Plans"
+msgstr "Plans"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_generic_tax_report.py:0
+#, python-format
+msgid "Please specify the accounts necessary for the Tax Closing Entry."
+msgstr ""
+
+#. module: til_account_reports
+#: model:account.report.line,name:til_account_reports.account_financial_report_fixed_assets_view0
+msgid "Plus Fixed Assets"
+msgstr "Més actius fixos"
+
+#. module: til_account_reports
+#: model:account.report.line,name:til_account_reports.account_financial_report_non_current_assets_view0
+msgid "Plus Non-current Assets"
+msgstr "Més actius no corrents"
+
+#. module: til_account_reports
+#: model:account.report.expression,report_line_name:til_account_reports.account_financial_report_non_current_liabilities0_balance
+#: model:account.report.line,name:til_account_reports.account_financial_report_non_current_liabilities0
+msgid "Plus Non-current Liabilities"
+msgstr "Més passiu no corrent"
+
+#. module: til_account_reports
+#: model:account.report.line,name:til_account_reports.account_financial_report_executivesummary_position0
+msgid "Position"
+msgstr "Posició"
+
+#. module: til_account_reports
+#. openerp-web
+#: code:addons/til_account_reports/static/src/xml/account_report_template.xml:0
+#, python-format
+msgid "Post"
+msgstr "Validar"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.search_template_extra_options
+msgid "Posted Entries Only"
+msgstr "Només entrades validades"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.filter_info_template_journal_audit_report
+msgid "Posted Entries only"
+msgstr "Només entrades postades"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.filter_info_template_journal_audit_report
+msgid "Posted and Draft Entries"
+msgstr "Entrades postades i esborranys"
+
+#. module: til_account_reports
+#: model:account.report.line,name:til_account_reports.account_financial_report_prepayements0
+msgid "Prepayments"
+msgstr "Prepagaments"
+
+#. module: til_account_reports
+#: model:ir.model.fields,field_description:til_account_reports.field_account_multicurrency_revaluation_wizard__preview_data
+msgid "Preview Data"
+msgstr "Dades de vista prèvia"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.search_template_comparison
+msgid "Previous Period"
+msgstr "Període previ"
+
+#. module: til_account_reports
+#: model:account.report.expression,report_line_name:til_account_reports.account_financial_previous_year_earnings0_allocated_earnings
+#: model:account.report.expression,report_line_name:til_account_reports.account_financial_previous_year_earnings0_balance
+#: model:account.report.expression,report_line_name:til_account_reports.account_financial_previous_year_earnings0_balance_domain
+#: model:account.report.line,name:til_account_reports.account_financial_previous_year_earnings0
+msgid "Previous Years Unallocated Earnings"
+msgstr ""
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.view_account_multicurrency_revaluation_wizard
+msgid ""
+"Proceed with caution as there might be an existing adjustment for this "
+"period ("
+msgstr ""
+
+#. module: til_account_reports
+#: model:account.report,name:til_account_reports.profit_and_loss
+#: model:ir.actions.client,name:til_account_reports.action_account_report_pl
+#: model:ir.ui.menu,name:til_account_reports.menu_action_account_report_profit_and_loss
+msgid "Profit and Loss"
+msgstr "Guanys i pèrdues"
+
+#. module: til_account_reports
+#: model:account.report.line,name:til_account_reports.account_financial_report_executivesummary_profitability0
+msgid "Profitability"
+msgstr "Rendibilitat"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.view_move_form_vat_return
+msgid "Proposition of tax closing journal entry."
+msgstr ""
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/wizard/multicurrency_revaluation.py:0
+#, python-format
+msgid "Provision for %(for_cur)s (1 %(comp_cur)s = %(rate)s %(for_cur)s)"
+msgstr ""
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_report.py:0
+#, python-format
+msgid "Receivable"
+msgstr "A cobrar"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_generic_tax_report.py:0
+#, python-format
+msgid "Receivable tax amount"
+msgstr ""
+
+#. module: til_account_reports
+#: model:account.report.expression,report_line_name:til_account_reports.account_financial_report_executivesummary_debtors0_balance
+#: model:account.report.line,name:til_account_reports.account_financial_report_executivesummary_debtors0
+#: model:account.report.line,name:til_account_reports.account_financial_report_receivable0
+msgid "Receivables"
+msgstr "A cobrar"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.aged_report_line_template
+#: model_terms:ir.ui.view,arch_db:til_account_reports.line_template_partner_ledger_report
+msgid "Reconcile"
+msgstr "Concilia"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.account_reports_journal_dashboard_kanban_view
+msgid "Reconciliation Report"
+msgstr "Informe de conciliació"
+
+#. module: til_account_reports
+#: model:account.report.column,name:til_account_reports.partner_ledger_report_ref
+msgid "Ref"
+msgstr "Ref."
+
+#. module: til_account_reports
+#: model:ir.model.fields,field_description:til_account_reports.field_account_financial_year_op__account_tax_periodicity_reminder_day
+#: model:ir.model.fields,field_description:til_account_reports.field_res_config_settings__account_tax_periodicity_reminder_day
+#: model_terms:ir.ui.view,arch_db:til_account_reports.res_config_settings_view_form
+#: model_terms:ir.ui.view,arch_db:til_account_reports.setup_financial_year_opening_form
+msgid "Reminder"
+msgstr "Recordatori"
+
+#. module: til_account_reports
+#: model:ir.model.fields,field_description:til_account_reports.field_account_report_manager__report_id
+#: model_terms:ir.ui.view,arch_db:til_account_reports.account_report_form
+msgid "Report"
+msgstr "Informe"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.account_report_line_form
+msgid "Report Line"
+msgstr "Línia de l'informe"
+
+#. module: til_account_reports
+#: model:ir.model.fields,field_description:til_account_reports.field_account_report_manager__report_name
+msgid "Report Name"
+msgstr "Nom de l'informe"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_report.py:0
+#, python-format
+msgid "Report lines mentioning the account code"
+msgstr ""
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.res_config_settings_view_form
+msgid "Reporting"
+msgstr "Informes"
+
+#. module: til_account_reports
+#: model:ir.model.fields,field_description:til_account_reports.field_account_report_horizontal_group__report_ids
+msgid "Reports"
+msgstr "Informes"
+
+#. module: til_account_reports
+#: model:account.report.line,name:til_account_reports.account_financial_retained_earnings0
+msgid "Retained Earnings"
+msgstr ""
+
+#. module: til_account_reports
+#: model:account.report.expression,report_line_name:til_account_reports.account_financial_report_executivesummary_return_investment0_balance
+#: model:account.report.line,name:til_account_reports.account_financial_report_executivesummary_return_investment0
+msgid "Return on investments (net profit / assets)"
+msgstr ""
+
+#. module: til_account_reports
+#: model:ir.model.fields,field_description:til_account_reports.field_account_multicurrency_revaluation_wizard__reversal_date
+msgid "Reversal Date"
+msgstr "Data reversal"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/wizard/multicurrency_revaluation.py:0
+#, python-format
+msgid "Reversal of: %s"
+msgstr "Reversal de: %s"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.view_account_report_search
+msgid "Root Report"
+msgstr ""
+
+#. module: til_account_reports
+#: model:ir.model.fields,field_description:til_account_reports.field_account_report_horizontal_group__rule_ids
+msgid "Rules"
+msgstr "Regles"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.search_template_comparison
+msgid "Same Period Last Year"
+msgstr "El mateix període de l'any passat"
+
+#. module: til_account_reports
+#. openerp-web
+#: code:addons/til_account_reports/models/account_report.py:0
+#: code:addons/til_account_reports/static/src/js/til_account_reports.js:0
+#: code:addons/til_account_reports/static/src/js/til_account_reports.js:0
+#, python-format
+msgid "Save"
+msgstr "Desa"
+
+#. module: til_account_reports
+#: model:ir.model.fields,field_description:til_account_reports.field_account_report__search_template
+msgid "Search Template"
+msgstr ""
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.main_template_with_filter_input_accounts
+msgid "Search account"
+msgstr "Cerca al compte"
+
+#. module: til_account_reports
+#. openerp-web
+#: code:addons/til_account_reports/static/src/xml/account_report_template.xml:0
+#, python-format
+msgid "Search line"
+msgstr ""
+
+#. module: til_account_reports
+#. openerp-web
+#: code:addons/til_account_reports/static/src/xml/account_report_template.xml:0
+#: code:addons/til_account_reports/static/src/xml/account_report_template.xml:0
+#, python-format
+msgid "Search..."
+msgstr "Cercar..."
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_sales_report.py:0
+#, python-format
+msgid "Services"
+msgstr "Serveis"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.view_account_coa
+msgid "Setup"
+msgstr "Configuració"
+
+#. module: til_account_reports
+#: model:account.report.expression,report_line_name:til_account_reports.account_financial_report_executivesummary_st_cash_forecast0_balance
+#: model:account.report.line,name:til_account_reports.account_financial_report_executivesummary_st_cash_forecast0
+msgid "Short term cash forecast"
+msgstr "Previsió d'efectiu a curt termini"
+
+#. module: til_account_reports
+#: model:ir.model.fields,field_description:til_account_reports.field_account_multicurrency_revaluation_wizard__show_warning_move_id
+msgid "Show Warning Move"
+msgstr "Mostra el moviment d'avís"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.search_template_extra_options_journal_audit_report
+msgid "Show payment lines"
+msgstr ""
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.view_move_form_vat_return
+msgid "Some controls failed."
+msgstr ""
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.search_template_extra_options_journal_audit_report
+msgid "Sort By Date"
+msgstr ""
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.search_template_extra_options_journal_audit_report
+msgid "Sort by date"
+msgstr ""
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.search_template_extra_options_journal_audit_report
+msgid "Sorted by date"
+msgstr ""
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.search_template_extra_options_journal_audit_report
+msgid "Sorted by number"
+msgstr ""
+
+#. module: til_account_reports
+#: model:ir.model.fields,help:til_account_reports.field_res_company__account_representative_id
+msgid ""
+"Specify an Accounting Firm that will act as a representative when exporting "
+"reports."
+msgstr ""
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.search_template_comparison
+#: model_terms:ir.ui.view,arch_db:til_account_reports.search_template_date_filter
+msgid "Start Date :"
+msgstr "Data inicial :"
+
+#. module: til_account_reports
+#: model:ir.model.fields,field_description:til_account_reports.field_res_company__account_tax_periodicity_reminder_day
+msgid "Start from"
+msgstr "Comença des de"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_journal_report.py:0
+#, python-format
+msgid "Starting Balance :"
+msgstr ""
+
+#. module: til_account_reports
+#: model:ir.model.fields,field_description:til_account_reports.field_account_report_manager__summary
+msgid "Summary"
+msgstr "Resum"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_journal_report.py:0
+#, python-format
+msgid "T: %s"
+msgstr ""
+
+#. module: til_account_reports
+#. openerp-web
+#: code:addons/til_account_reports/static/src/js/til_account_reports.js:0
+#, python-format
+msgid "Tags"
+msgstr "Etiquetes"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_general_ledger.py:0
+#: model_terms:ir.ui.view,arch_db:til_account_reports.line_template_journal_audit_report
+#, python-format
+msgid "Tax Amount"
+msgstr "Import de l'impost"
+
+#. module: til_account_reports
+#: model:ir.model.fields,field_description:til_account_reports.field_account_bank_statement_line__tax_closing_end_date
+#: model:ir.model.fields,field_description:til_account_reports.field_account_move__tax_closing_end_date
+#: model:ir.model.fields,field_description:til_account_reports.field_account_payment__tax_closing_end_date
+msgid "Tax Closing End Date"
+msgstr ""
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_general_ledger.py:0
+#, python-format
+msgid "Tax Declaration"
+msgstr "Declaració d'impostos"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_journal_report.py:0
+#, python-format
+msgid "Tax Grids"
+msgstr "Quadrícules d'impostos"
+
+#. module: til_account_reports
+#: model:ir.model.fields,field_description:til_account_reports.field_account_tax_unit__vat
+msgid "Tax ID"
+msgstr "ID d'impost"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_generic_tax_report.py:0
+#, python-format
+msgid "Tax Paid Adjustment"
+msgstr ""
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_generic_tax_report.py:0
+#, python-format
+msgid "Tax Received Adjustment"
+msgstr ""
+
+#. module: til_account_reports
+#: model:ir.actions.client,name:til_account_reports.action_account_report_gt
+#: model:ir.ui.menu,name:til_account_reports.menu_action_account_report_gt
+#: model:mail.activity.type,name:til_account_reports.tax_closing_activity_type
+#: model:mail.activity.type,summary:til_account_reports.tax_closing_activity_type
+#: model_terms:ir.ui.view,arch_db:til_account_reports.view_move_form_vat_return
+msgid "Tax Report"
+msgstr "Informe d'impostos"
+
+#. module: til_account_reports
+#: model:ir.model.fields,field_description:til_account_reports.field_account_bank_statement_line__tax_report_control_error
+#: model:ir.model.fields,field_description:til_account_reports.field_account_move__tax_report_control_error
+#: model:ir.model.fields,field_description:til_account_reports.field_account_payment__tax_report_control_error
+msgid "Tax Report Control Error"
+msgstr "Error de control de l'informe d'impostos"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.setup_financial_year_opening_form
+msgid "Tax Return"
+msgstr ""
+
+#. module: til_account_reports
+#: model:ir.model,name:til_account_reports.model_account_tax_unit
+#: model_terms:ir.ui.view,arch_db:til_account_reports.view_tax_unit_form
+msgid "Tax Unit"
+msgstr ""
+
+#. module: til_account_reports
+#: model:ir.actions.act_window,name:til_account_reports.action_view_tax_units
+#: model:ir.model.fields,field_description:til_account_reports.field_res_company__account_tax_unit_ids
+#: model:ir.ui.menu,name:til_account_reports.menu_view_tax_units
+msgid "Tax Units"
+msgstr ""
+
+#. module: til_account_reports
+#: model:ir.model.fields.selection,name:til_account_reports.selection__mail_activity_type__category__tax_report
+msgid "Tax report"
+msgstr "Informe d'impostos"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/res_company.py:0
+#: code:addons/til_account_reports/models/res_company.py:0
+#: code:addons/til_account_reports/models/res_company.py:0
+#, python-format
+msgid "Tax return for %s%s"
+msgstr ""
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/res_company.py:0
+#, python-format
+msgid "Tax return from %s to %s%s"
+msgstr ""
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_journal_report.py:0
+#, python-format
+msgid "Taxes"
+msgstr "Impostos"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.line_template_journal_audit_report
+msgid ""
+"Taxes Applied\n"
+"                            &amp;nbsp;"
+msgstr ""
+
+#. module: til_account_reports
+#: model:ir.model,name:til_account_reports.model_ir_actions_account_report_download
+msgid "Technical model for accounting report downloads"
+msgstr ""
+
+#. module: til_account_reports
+#: model:ir.model.fields,field_description:til_account_reports.field_account_report_footnote__text
+msgid "Text"
+msgstr "Text"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_bank_reconciliation_report.py:0
+#, python-format
+msgid "The Book balance in Odoo dated today"
+msgstr ""
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_report.py:0
+#, python-format
+msgid "The company's country does not match the report's country."
+msgstr ""
+
+#. module: til_account_reports
+#: model:ir.model.fields,help:til_account_reports.field_account_tax_unit__country_id
+msgid ""
+"The country in which this tax unit is used to group your companies' tax "
+"reports declaration."
+msgstr ""
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_bank_reconciliation_report.py:0
+#, python-format
+msgid ""
+"The current balance in the General Ledger %s doesn't match the balance of "
+"your last bank statement %s leading to an unexplained difference of %s."
+msgstr ""
+
+#. module: til_account_reports
+#: model:ir.model.fields,help:til_account_reports.field_account_tax_unit__vat
+msgid "The identifier to be used when submitting a report for this unit."
+msgstr ""
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_tax.py:0
+#, python-format
+msgid "The main company of a tax unit has to be part of it."
+msgstr ""
+
+#. module: til_account_reports
+#: model:ir.model.fields,help:til_account_reports.field_res_company__account_tax_unit_ids
+msgid "The tax units this company belongs to."
+msgstr ""
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.main_template
+msgid "There are"
+msgstr "Hi ha"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.bank_reconciliation_report_main_template
+msgid "There are some"
+msgstr "N'hi ha"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.search_template_date_filter
+msgid "This Financial Year"
+msgstr "Aquest exercici comptable"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.search_template_date_filter
+msgid "This Month"
+msgstr "Aquest mes"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.search_template_date_filter
+msgid "This Quarter"
+msgstr "Aquest trimestre"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_report.py:0
+#, python-format
+msgid ""
+"This account exists in the Chart of Accounts but is not mentioned in any "
+"line of the report"
+msgstr ""
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_report.py:0
+#, python-format
+msgid ""
+"This account is reported in a line of the report but does not exist in the "
+"Chart of Accounts"
+msgstr ""
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_report.py:0
+#, python-format
+msgid "This account is reported in multiple lines of the report"
+msgstr ""
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.res_config_settings_view_form
+msgid ""
+"This allows you to choose the position of totals in your financial reports."
+msgstr ""
+"Això li permet triar la posició dels totals en els seus informes financers."
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_generic_tax_report.py:0
+#, python-format
+msgid "This period is already closed for company %s"
+msgstr "Aquest període ja està tancat per a l'empresa %s"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.search_template_date_filter
+msgid "Today"
+msgstr "Avui"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_general_ledger.py:0
+#: code:addons/til_account_reports/models/account_partner_ledger.py:0
+#: code:addons/til_account_reports/models/account_sales_report.py:0
+#: model:account.report.column,name:til_account_reports.aged_payable_report_total
+#: model:account.report.column,name:til_account_reports.aged_receivable_report_total
+#, python-format
+msgid "Total"
+msgstr "Total"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_bank_reconciliation_report.py:0
+#: code:addons/til_account_reports/models/account_bank_reconciliation_report.py:0
+#: code:addons/til_account_reports/models/account_report.py:0
+#, python-format
+msgid "Total %s"
+msgstr "Total %s"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_report.py:0
+#, python-format
+msgid "Trade Partners"
+msgstr ""
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_bank_reconciliation_report.py:0
+#, python-format
+msgid ""
+"Transactions that were entered into Odoo, but not yet reconciled (Payments "
+"triggered by invoices/bills or manually)"
+msgstr ""
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_bank_reconciliation_report.py:0
+#, python-format
+msgid ""
+"Transactions(+) that were entered into Odoo, but not yet reconciled "
+"(Payments triggered by invoices/refunds or manually)"
+msgstr ""
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_bank_reconciliation_report.py:0
+#, python-format
+msgid ""
+"Transactions(-) that were entered into Odoo, but not yet reconciled "
+"(Payments triggered by bills/credit notes or manually)"
+msgstr ""
+
+#. module: til_account_reports
+#: model:account.report,name:til_account_reports.trial_balance_report
+#: model:ir.actions.client,name:til_account_reports.action_account_report_coa
+#: model:ir.ui.menu,name:til_account_reports.menu_action_account_report_coa
+msgid "Trial Balance"
+msgstr "Balanç de sumes i saldos"
+
+#. module: til_account_reports
+#: model:ir.model,name:til_account_reports.model_account_trial_balance_report_handler
+msgid "Trial Balance Custom Handler"
+msgstr ""
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_sales_report.py:0
+#, python-format
+msgid "Triangular"
+msgstr "Triangular"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_report.py:0
+#, python-format
+msgid ""
+"Trying to build account hierarchy from a model different from "
+"account.account: %s"
+msgstr ""
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_report.py:0
+#, python-format
+msgid ""
+"Trying to expand a group for a line which was not generated by a report "
+"line: %s"
+msgstr ""
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_report.py:0
+#, python-format
+msgid "Trying to expand a line without an expansion function."
+msgstr ""
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_report.py:0
+#, python-format
+msgid "Trying to expand groupby results on lines without a groupby value."
+msgstr ""
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_journal_report.py:0
+#: code:addons/til_account_reports/models/account_journal_report.py:0
+#, python-format
+msgid ""
+"Trying to use the journal line expand function on a line that is not linked "
+"to a journal."
+msgstr ""
+
+#. module: til_account_reports
+#: model:account.report.line,name:til_account_reports.account_financial_unaffected_earnings0
+msgid "Unallocated Earnings"
+msgstr "Beneficios no asignados"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.search_template_extra_options
+#: model_terms:ir.ui.view,arch_db:til_account_reports.search_template_extra_options_journal_audit_report
+msgid "Unfold"
+msgstr "Desplegar"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.search_template_extra_options
+#: model_terms:ir.ui.view,arch_db:til_account_reports.search_template_extra_options_journal_audit_report
+msgid "Unfold All"
+msgstr "Desplegar tot"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.line_template
+msgid "Unfolded"
+msgstr "Desplegat"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_report.py:0
+#: code:addons/til_account_reports/models/account_report.py:0
+#: code:addons/til_account_reports/models/account_report.py:0
+#, python-format
+msgid "Unknown"
+msgstr "Desconegut"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_partner_ledger.py:0
+#: code:addons/til_account_reports/models/account_sales_report.py:0
+#, python-format
+msgid "Unknown Partner"
+msgstr "Empresa desconeguda"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_report.py:0
+#, python-format
+msgid "Unknown bound criterium: %s"
+msgstr ""
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_report.py:0
+#, python-format
+msgid "Unknown date scope: %s"
+msgstr ""
+
+#. module: til_account_reports
+#: model:account.report,name:til_account_reports.multicurrency_revaluation_report
+#: model:ir.actions.client,name:til_account_reports.action_account_report_multicurrency_revaluation
+#: model:ir.ui.menu,name:til_account_reports.menu_action_account_report_multicurrency_revaluation
+msgid "Unrealized Currency Gains/Losses"
+msgstr "Guanys/pèrdues de divises no realitzades"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.search_template_extra_options
+msgid "Unreconciled"
+msgstr "No conciliat"
+
+#. module: til_account_reports
+#: model:account.report.column,name:til_account_reports.account_financial_report_ec_sales_vat
+msgid "VAT Number"
+msgstr "NIF-IVA"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.view_company_form
+msgid "VAT Units"
+msgstr "Unitats de l'IVA"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_move.py:0
+#, python-format
+msgid "Vat closing from %s to %s"
+msgstr "Tancament de l'IVA a partir de %s a %s"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_report.py:0
+#, python-format
+msgid "View Bank Statement"
+msgstr "Veure l'extracte bancari"
+
+#. module: til_account_reports
+#. openerp-web
+#: code:addons/til_account_reports/static/src/xml/account_report_template.xml:0
+#, python-format
+msgid "View Carryover Lines"
+msgstr ""
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_partner_ledger.py:0
+#: code:addons/til_account_reports/models/account_report.py:0
+#: code:addons/til_account_reports/models/account_report.py:0
+#, python-format
+msgid "View Journal Entry"
+msgstr ""
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_report.py:0
+#: code:addons/til_account_reports/models/account_sales_report.py:0
+#, python-format
+msgid "View Partner"
+msgstr ""
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_partner_ledger.py:0
+#: code:addons/til_account_reports/models/account_report.py:0
+#, python-format
+msgid "View Payment"
+msgstr ""
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.res_config_settings_view_form
+msgid ""
+"When ticked, totals and subtotals appear below the sections of the report"
+msgstr ""
+
+#. module: til_account_reports
+#: model:ir.model.fields,help:til_account_reports.field_res_company__totals_below_sections
+#: model:ir.model.fields,help:til_account_reports.field_res_config_settings__totals_below_sections
+msgid ""
+"When ticked, totals and subtotals appear below the sections of the report."
+msgstr ""
+"Quan es va posar un tiquet, els totals i els subtotals apareixeran sota els "
+"seccions de l'informe."
+
+#. module: til_account_reports
+#: model:ir.model.fields,help:til_account_reports.field_account_account__exclude_provision_currency_ids
+msgid ""
+"Whether or not we have to make provisions for the selected foreign "
+"currencies."
+msgstr ""
+"si o no, hem de crear provisions per als quals selecciona una moneda "
+"estrangera."
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.search_template_extra_options
+msgid "With Draft Entries"
+msgstr ""
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_general_ledger.py:0
+#, python-format
+msgid "Wrong ID for general ledger line to expand: %s"
+msgstr ""
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_partner_ledger.py:0
+#, python-format
+msgid "Wrong ID for partner ledger line to expand: %s"
+msgstr ""
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_report.py:0
+#: code:addons/til_account_reports/models/account_report.py:0
+#, python-format
+msgid "XLSX"
+msgstr "XLSX"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.multicurrency_report_main_template
+msgid "You are using custom exchange rates."
+msgstr ""
+
+#. module: til_account_reports
+#: model:ir.model.fields.selection,name:til_account_reports.selection__res_company__account_tax_periodicity__year
+msgid "annually"
+msgstr ""
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/res_partner.py:0
+#: code:addons/til_account_reports/models/res_partner.py:0
+#, python-format
+msgid "any"
+msgstr "qualsevol"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.res_config_settings_view_form
+#: model_terms:ir.ui.view,arch_db:til_account_reports.setup_financial_year_opening_form
+msgid "days after period"
+msgstr "dies després del període"
+
+#. module: til_account_reports
+#: model:ir.model.fields.selection,name:til_account_reports.selection__res_company__account_tax_periodicity__2_months
+msgid "every 2 months"
+msgstr "cada 2 mesos"
+
+#. module: til_account_reports
+#: model:ir.model.fields.selection,name:til_account_reports.selection__res_company__account_tax_periodicity__4_months
+msgid "every 4 months"
+msgstr "cada 4 mesos"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.bank_reconciliation_report_main_template
+msgid "having a starting balance different than the previous ending balance"
+msgstr "tenir un saldo inicial diferent del saldo final anterior"
+
+#. module: til_account_reports
+#. openerp-web
+#: code:addons/til_account_reports/static/src/xml/account_report_template.xml:0
+#, python-format
+msgid "in the next period."
+msgstr ""
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.bank_reconciliation_report_main_template
+msgid "journal items"
+msgstr "ítems del diari"
+
+#. module: til_account_reports
+#: model:ir.model.fields.selection,name:til_account_reports.selection__res_company__account_tax_periodicity__monthly
+msgid "monthly"
+msgstr "mensual"
+
+#. module: til_account_reports
+#: code:addons/til_account_reports/models/account_report.py:0
+#, python-format
+msgid "n/a"
+msgstr "n/d "
+
+#. module: til_account_reports
+#: model:ir.model.fields,help:til_account_reports.field_account_report_manager__report_name
+msgid "name of the model of the report"
+msgstr "nom del model de l'informe"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.main_template
+msgid "prior or included in this period"
+msgstr "anterior o inclòs en aquest període"
+
+#. module: til_account_reports
+#: model:ir.model.fields.selection,name:til_account_reports.selection__res_company__account_tax_periodicity__trimester
+msgid "quarterly"
+msgstr "Trimestral"
+
+#. module: til_account_reports
+#: model:ir.model.fields.selection,name:til_account_reports.selection__res_company__account_tax_periodicity__semester
+msgid "semi-annually"
+msgstr "Semestralment"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.bank_reconciliation_report_main_template
+msgid "statements"
+msgstr "extractes"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.search_template_date_filter
+msgid "to:"
+msgstr "a:"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.main_template
+msgid "unposted Journal Entries"
+msgstr ""
+
+#. module: til_account_reports
+#. openerp-web
+#: code:addons/til_account_reports/static/src/xml/account_report_template.xml:0
+#, python-format
+msgid "were carried over to this line from previous period."
+msgstr ""
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.bank_reconciliation_report_main_template
+msgid "which doesn't result from a bank statement nor payments."
+msgstr ""
+
+#. module: til_account_reports
+#. openerp-web
+#: code:addons/til_account_reports/static/src/xml/account_report_template.xml:0
+#, python-format
+msgid "will be carried over to"
+msgstr ""
+
+#. module: til_account_reports
+#. openerp-web
+#: code:addons/til_account_reports/static/src/xml/account_report_template.xml:0
+#, python-format
+msgid "will be carried over to this line in the next period."
+msgstr ""
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.multicurrency_report_line_template
+msgid "⇒ General Ledger"
+msgstr ""
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.aged_report_line_template
+#: model_terms:ir.ui.view,arch_db:til_account_reports.line_template_general_ledger_report
+#: model_terms:ir.ui.view,arch_db:til_account_reports.line_template_partner_ledger_report
+msgid "⇒ Journal Items"
+msgstr ""
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.multicurrency_report_line_template
+msgid "⇒ Rates"
+msgstr "⇒ Tarifes"
+
+#. module: til_account_reports
+#: model_terms:ir.ui.view,arch_db:til_account_reports.multicurrency_report_main_template
+msgid "⇒ Reset to Odoo’s Rate"
+msgstr "⇒ Restablir la tarifa de Odoo"
